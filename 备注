@@ -17,8 +17,11 @@ sudo ./matlab
 6、配置Python调用MATLAB环境：
 https://blog.csdn.net/sunny_xsc1994/article/details/79254196
 
-7
-66666
+7、查看两个不同本地的区别：
+    通过远程，git的命令如下：
+        git fetch origin（更新远程）
+        git diff --stat master origin/master（查看本地与远程仓库的差别）
+        git pull（从仓库拉下来更新）
 
 
 
