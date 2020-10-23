@@ -1,0 +1,7 @@
+PyWavelets
+bitarray
+numpy
+pandas
+logging
+tqdm
+matplotlib

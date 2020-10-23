@@ -1,0 +1,92 @@
+aquasent:
+    port: /dev/ttyUSB1
+    baudrate: 115200
+
+clientsocket:
+    address: 192.168.2.107
+    port: 80
+    samplerate: 80000
+    gain: 0.01
+    cycleprefixms: 20
+    correlatethreadshort: 0.1
+
+qpskclient:
+    address: 192.168.2.107
+    port: 80
+    rxgain: 1.0
+    txgain: 0.01
+    threshold: 0.1
+    qpsknumchannel: 4
+    samplerate: 96000
+    datasize: 1024
+    readcycle: 30
+
+fskclient:
+    address: 192.168.2.107
+    port: 80
+    samplerate: 80000
+    gain: 0.2
+    cycleprefixms: 20
+    correlatethreadshort: 0.1
+    readcycle: 30
+    transmitAmp: 0.005
+
+fsknewclient:
+    address: 192.168.2.107
+    port: 80
+    samplerate: 80000
+    gain: 0.2
+    transmitAmp: 0.005
+    cycleprefixms: 20
+    correlatethreadshort: 0.1
+    readcycle: 30 
+    datasize: 128
+    upError: 1
+    
+simulatechannel:
+    address: 127.0.0.1
+    port: 30000
+
+Srt:
+    nodeID: 7
+    entry1: [1, 6, 6]
+    entry2: [2, 6, 5]
+    entry3: [3, 6, 4]
+    entry4: [4, 6, 3]
+    entry5: [5, 6, 2]
+    entry6: [6, 6, 1]
+    entry7: [7, 7, 0]
+
+vbf:
+    position: [1, 1, 1]
+drt:
+    nodeID: 1
+    
+drtPlus:
+    nodeID: 1
+    
+server:
+    port: 9080
+
+test:
+    testmode: 0
+    seed: 10
+    timeinterval: [20, 30]
+    othernodeID: [2, 3, 4]
+    packetnum: 20
+    timeforhandshake: 300
+
+trace:
+    tracemode: 1
+    tracepath: ./tracefile/
+    tracefile: G.log
+
+newAloha:
+    MacId: 7
+    MinReSendTime: 4
+    ReSendTimeRange: 10
+
+udp:
+    pos_x: 3000
+    pos_y: 3000
+    pos_z: 3000

@@ -1,0 +1,1756 @@
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:261] the size of protocol is 4
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:262] the len of protocol header is 11
+[Node 1] 2019-07-16T12:28:44 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T12:28:44 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T12:28:44 [INFO ] [new_aloha.cc:59] NewAloha init
+[Node 1] 2019-07-16T12:28:44 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T12:28:44 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T12:28:44 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T12:28:44 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T12:28:44 [INFO ] [demo.cc:267] post is 9080
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:261] the size of protocol is 4
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:262] the len of protocol header is 11
+[Node 1] 2019-07-16T12:29:19 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T12:29:19 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T12:29:19 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T12:29:19 [INFO ] [new_aloha.cc:59] NewAloha init
+[Node 1] 2019-07-16T12:29:19 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T12:29:19 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T12:29:19 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T12:29:19 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T12:29:19 [INFO ] [demo.cc:267] post is 9080
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:261] the size of protocol is 4
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:262] the len of protocol header is 11
+[Node 1] 2019-07-16T12:29:32 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T12:29:32 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T12:29:32 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T12:29:32 [INFO ] [new_aloha.cc:59] NewAloha init
+[Node 1] 2019-07-16T12:29:32 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T12:29:32 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T12:29:32 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T12:29:32 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T12:29:32 [INFO ] [demo.cc:267] post is 9080
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:247] target ID has 1
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:247] target ID has 3
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:247] target ID has 4
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:247] target ID has 5
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:251] 7 100 4 10 50 90
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:261] the size of protocol is 4
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:262] the len of protocol header is 11
+[Node 2] 2019-07-16T12:30:04 [INFO ] [sap.h:70] Start to initialize each module
+[Node 2] 2019-07-16T12:30:04 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 2] 2019-07-16T12:30:04 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 2] 2019-07-16T12:30:04 [INFO ] [new_aloha.cc:59] NewAloha init
+[Node 2] 2019-07-16T12:30:04 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 2] 2019-07-16T12:30:04 [INFO ] [Srt.cc:124] toApp()
+[Node 2] 2019-07-16T12:30:04 [INFO ] [udp.cc:75] Udp Init
+[Node 2] 2019-07-16T12:30:04 [INFO ] [sap.h:78] Finish module initialize
+[Node 2] 2019-07-16T12:30:04 [INFO ] [demo.cc:267] post is 9081
+[Node 2] 2019-07-16T12:30:59 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T12:31:02 [INFO ] [demo.cc:147] send packet , there are 99 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:31:02 [INFO ] [demo.cc:160] SerialNum = 0
+[Node 1] 2019-07-16T12:31:02 [INFO ] [demo.cc:161] dest = 2
+[Node 1] 2019-07-16T12:31:02 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:31:02 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:31:02 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:02 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:02 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:31:02 [INFO ] [Srt.cc:263] 0
+
+[Node 1] 2019-07-16T12:31:02 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:31:02 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:31:02 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:02 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:02 [INFO ] [new_aloha.cc:268] packet No0 resend in 15 s 
+[Node 1] 2019-07-16T12:31:02 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:02 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:02 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:07 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:07 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:07 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:07 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:07 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:07 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:13 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T12:31:17 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:17 [INFO ] [new_aloha.cc:326] resend package No.0 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:31:17 [INFO ] [new_aloha.cc:334] packet No0 resend in 17 s 
+[Node 1] 2019-07-16T12:31:17 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:17 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:17 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:20 [INFO ] [demo.cc:147] send packet , there are 98 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:31:20 [INFO ] [demo.cc:160] SerialNum = 1
+[Node 1] 2019-07-16T12:31:20 [INFO ] [demo.cc:161] dest = 4
+[Node 1] 2019-07-16T12:31:20 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:31:20 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:31:20 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:20 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:20 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:31:20 [INFO ] [Srt.cc:263] 1
+
+[Node 1] 2019-07-16T12:31:20 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:31:20 [INFO ] [Srt.cc:265] 4
+
+[Node 1] 2019-07-16T12:31:20 [INFO ] [Srt.cc:288] sendDown()...msg->address4
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:20 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:20 [INFO ] [new_aloha.cc:268] packet No1 resend in 20 s 
+[Node 1] 2019-07-16T12:31:20 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 4 and settimer
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:20 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:20 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:22 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:22 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:22 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:22 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:22 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:22 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:22 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:28 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:28 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:28 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:28 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:28 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:28 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:28 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [clientsocket.cc:52] Read 1017 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:28 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:28 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 2
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [sap.h:120] Layer: 2 Pid: 5 send Notification to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:28 [INFO ] [new_aloha.cc:137] recv a data packet and send up
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:28 [INFO ] [new_aloha.cc:178] send ack
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [schedule.h:92] Layer: 3 Pid: 2 receive Notification from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:28 [INFO ] [Srt.cc:168] Srt receive a packet from lower layer
+[Node 2] 2019-07-16T12:31:28 [INFO ] [Srt.cc:172] 0
+
+[Node 2] 2019-07-16T12:31:28 [INFO ] [Srt.cc:173] 0
+
+[Node 2] 2019-07-16T12:31:28 [INFO ] [Srt.cc:174] 2
+
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [sap.h:120] Layer: 3 Pid: 2 send Notification to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [schedule.h:92] Layer: 4 Pid: 1 receive Notification from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:28 [INFO ] [udp.cc:229] udp recv data: underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [libev_tool.h:30] Write 7 bytes data to fd 8
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [libev_tool.h:30] Write 51 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:28 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:28 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:28 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:28 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:33 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:33 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:33 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:31:33 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:31:33 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:31:33 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:31:33 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:33 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:33 [INFO ] [new_aloha.cc:268] packet No2 resend in 16 s 
+[Node 1] 2019-07-16T12:31:33 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:33 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:33 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:34 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:34 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:34 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:326] resend package No.0 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:334] packet No0 resend in 18 s 
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:34 [INFO ] [demo.cc:147] send packet , there are 99 more packets and I have 4 friends
+[Node 2] 2019-07-16T12:31:34 [INFO ] [demo.cc:160] SerialNum = 0
+[Node 2] 2019-07-16T12:31:34 [INFO ] [demo.cc:161] dest = 4
+[Node 2] 2019-07-16T12:31:34 [INFO ] [demo.cc:162] sour = 2
+[Node 2] 2019-07-16T12:31:34 [INFO ] [demo.cc:163] data_size = 1006
+[Node 2] 2019-07-16T12:31:34 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:34 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:263] 0
+
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:264] 0
+
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:265] 4
+
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:288] sendDown()...msg->address4
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:34 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:268] packet No0 resend in 18 s 
+[Node 2] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 4 and settimer
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:34 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [clientsocket.cc:52] Read 86 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:34 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 2
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:120] Layer: 2 Pid: 5 send Notification to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:137] recv a data packet and send up
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:34 [INFO ] [new_aloha.cc:178] send ack
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:92] Layer: 3 Pid: 2 receive Notification from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:168] Srt receive a packet from lower layer
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:172] 100
+
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:173] 49
+
+[Node 2] 2019-07-16T12:31:34 [INFO ] [Srt.cc:174] 2
+
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [sap.h:120] Layer: 3 Pid: 2 send Notification to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [schedule.h:92] Layer: 4 Pid: 1 receive Notification from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:34 [INFO ] [udp.cc:229] udp recv data: 
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 51 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:34 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:39 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:39 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:39 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:39 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:39 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:39 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:39 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:39 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:39 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:39 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:31:39 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:39 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:39 [DEBUG] [libev_tool.h:30] Write 7 bytes data to fd 8
+[Node 2] 2019-07-16T12:31:40 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:40 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:40 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:40 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:31:40 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:40 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:40 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:40 [INFO ] [new_aloha.cc:326] resend package No.1 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:31:40 [INFO ] [new_aloha.cc:334] packet No1 resend in 17 s 
+[Node 1] 2019-07-16T12:31:40 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:40 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:40 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:45 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [clientsocket.cc:52] Read 1017 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:45 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:45 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 2
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [sap.h:120] Layer: 2 Pid: 5 send Notification to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:45 [INFO ] [new_aloha.cc:137] recv a data packet and send up
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:45 [INFO ] [new_aloha.cc:178] send ack
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [schedule.h:92] Layer: 3 Pid: 2 receive Notification from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:45 [INFO ] [Srt.cc:168] Srt receive a packet from lower layer
+[Node 2] 2019-07-16T12:31:45 [INFO ] [Srt.cc:172] 0
+
+[Node 2] 2019-07-16T12:31:45 [INFO ] [Srt.cc:173] 0
+
+[Node 2] 2019-07-16T12:31:45 [INFO ] [Srt.cc:174] 2
+
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [sap.h:120] Layer: 3 Pid: 2 send Notification to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [schedule.h:92] Layer: 4 Pid: 1 receive Notification from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:31:45 [INFO ] [udp.cc:229] udp recv data: underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [libev_tool.h:30] Write 7 bytes data to fd 8
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [libev_tool.h:30] Write 51 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:45 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:45 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:45 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:45 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:45 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:45 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:45 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:45 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:45 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:45 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:49 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:49 [INFO ] [new_aloha.cc:326] resend package No.2 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:31:49 [INFO ] [new_aloha.cc:334] packet No2 resend in 20 s 
+[Node 1] 2019-07-16T12:31:49 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:49 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:49 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:50 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:50 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:50 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:50 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:50 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:50 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:51 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:51 [DEBUG] [clientsocket.cc:52] Read 1017 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:51 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:51 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:51 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:51 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 4
+[Node 1] 2019-07-16T12:31:52 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:52 [INFO ] [new_aloha.cc:326] resend package No.0 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:31:52 [INFO ] [new_aloha.cc:330] packet discardNum : 1
+[Node 1] 2019-07-16T12:31:52 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:52 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:31:52 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:31:52 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:31:52 [INFO ] [new_aloha.cc:326] resend package No.0 has 2 time to ReSendDown=================
+[Node 2] 2019-07-16T12:31:52 [INFO ] [new_aloha.cc:334] packet No0 resend in 22 s 
+[Node 2] 2019-07-16T12:31:52 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:52 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:31:52 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:53 [INFO ] [demo.cc:147] send packet , there are 97 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:31:53 [INFO ] [demo.cc:160] SerialNum = 2
+[Node 1] 2019-07-16T12:31:53 [INFO ] [demo.cc:161] dest = 4
+[Node 1] 2019-07-16T12:31:53 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:31:53 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:31:53 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:263] 2
+
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:265] 4
+
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:288] sendDown()...msg->address4
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:53 [INFO ] [new_aloha.cc:268] packet No3 resend in 20 s 
+[Node 1] 2019-07-16T12:31:53 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 4 and settimer
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:53 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:31:53 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:53 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:57 [INFO ] [new_aloha.cc:326] resend package No.1 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:31:57 [INFO ] [new_aloha.cc:334] packet No1 resend in 16 s 
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:57 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:31:57 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:31:57 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:31:57 [INFO ] [new_aloha.cc:268] packet No4 resend in 16 s 
+[Node 1] 2019-07-16T12:31:57 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:31:57 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:31:57 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:31:57 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:31:57 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:31:57 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:31:57 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:31:57 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:31:57 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:03 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:03 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:03 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:03 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:03 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:03 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:03 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:03 [INFO ] [demo.cc:147] send packet , there are 98 more packets and I have 4 friends
+[Node 2] 2019-07-16T12:32:03 [INFO ] [demo.cc:160] SerialNum = 1
+[Node 2] 2019-07-16T12:32:03 [INFO ] [demo.cc:161] dest = 3
+[Node 2] 2019-07-16T12:32:03 [INFO ] [demo.cc:162] sour = 2
+[Node 2] 2019-07-16T12:32:03 [INFO ] [demo.cc:163] data_size = 1006
+[Node 2] 2019-07-16T12:32:03 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:03 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:32:03 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 2] 2019-07-16T12:32:03 [INFO ] [Srt.cc:263] 1
+
+[Node 2] 2019-07-16T12:32:03 [INFO ] [Srt.cc:264] 0
+
+[Node 2] 2019-07-16T12:32:03 [INFO ] [Srt.cc:265] 3
+
+[Node 2] 2019-07-16T12:32:03 [INFO ] [Srt.cc:288] sendDown()...msg->address3
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:03 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:03 [INFO ] [new_aloha.cc:268] packet No1 resend in 17 s 
+[Node 2] 2019-07-16T12:32:03 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 3 and settimer
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:03 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:03 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:08 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:08 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:08 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:08 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:08 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:08 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:08 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:08 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:08 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:08 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:08 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:08 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:08 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:09 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:09 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:09 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:09 [INFO ] [new_aloha.cc:326] resend package No.2 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:09 [INFO ] [new_aloha.cc:334] packet No2 resend in 18 s 
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:09 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:326] resend package No.3 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:334] packet No3 resend in 23 s 
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:326] resend package No.1 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:330] packet discardNum : 2
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:13 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:13 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:32:13 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:32:13 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:32:13 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:32:13 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:13 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:268] packet No5 resend in 23 s 
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:326] resend package No.4 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:13 [INFO ] [new_aloha.cc:334] packet No4 resend in 23 s 
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:13 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:13 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:13 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:13 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:14 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:14 [INFO ] [new_aloha.cc:326] resend package No.0 has 1 time to ReSendDown=================
+[Node 2] 2019-07-16T12:32:14 [INFO ] [new_aloha.cc:334] packet No0 resend in 24 s 
+[Node 2] 2019-07-16T12:32:14 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:14 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:14 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:15 [INFO ] [demo.cc:147] send packet , there are 96 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:32:15 [INFO ] [demo.cc:160] SerialNum = 3
+[Node 1] 2019-07-16T12:32:15 [INFO ] [demo.cc:161] dest = 2
+[Node 1] 2019-07-16T12:32:15 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:32:15 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:32:15 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:15 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:15 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:32:15 [INFO ] [Srt.cc:263] 3
+
+[Node 1] 2019-07-16T12:32:15 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:32:15 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:32:15 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:15 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:15 [INFO ] [new_aloha.cc:268] packet No6 resend in 15 s 
+[Node 1] 2019-07-16T12:32:15 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:15 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:15 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:19 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:19 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:19 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:19 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:19 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:19 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:19 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:19 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:19 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:19 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:19 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:19 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:19 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:20 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:20 [INFO ] [new_aloha.cc:326] resend package No.1 has 2 time to ReSendDown=================
+[Node 2] 2019-07-16T12:32:20 [INFO ] [new_aloha.cc:334] packet No1 resend in 19 s 
+[Node 2] 2019-07-16T12:32:20 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:20 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:20 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:25 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:25 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:25 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:25 [INFO ] [demo.cc:147] send packet , there are 97 more packets and I have 4 friends
+[Node 2] 2019-07-16T12:32:25 [INFO ] [demo.cc:160] SerialNum = 2
+[Node 2] 2019-07-16T12:32:25 [INFO ] [demo.cc:161] dest = 3
+[Node 2] 2019-07-16T12:32:25 [INFO ] [demo.cc:162] sour = 2
+[Node 2] 2019-07-16T12:32:25 [INFO ] [demo.cc:163] data_size = 1006
+[Node 2] 2019-07-16T12:32:25 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:25 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:32:25 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 2] 2019-07-16T12:32:25 [INFO ] [Srt.cc:263] 2
+
+[Node 2] 2019-07-16T12:32:25 [INFO ] [Srt.cc:264] 0
+
+[Node 2] 2019-07-16T12:32:25 [INFO ] [Srt.cc:265] 3
+
+[Node 2] 2019-07-16T12:32:25 [INFO ] [Srt.cc:288] sendDown()...msg->address3
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:25 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:25 [INFO ] [new_aloha.cc:268] packet No2 resend in 23 s 
+[Node 2] 2019-07-16T12:32:25 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 3 and settimer
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:32:25 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:25 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:25 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:25 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:25 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:25 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:25 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:25 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:25 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:27 [INFO ] [demo.cc:147] send packet , there are 95 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:32:27 [INFO ] [demo.cc:160] SerialNum = 4
+[Node 1] 2019-07-16T12:32:27 [INFO ] [demo.cc:161] dest = 4
+[Node 1] 2019-07-16T12:32:27 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:32:27 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:32:27 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:27 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:27 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:32:27 [INFO ] [Srt.cc:263] 4
+
+[Node 1] 2019-07-16T12:32:27 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:32:27 [INFO ] [Srt.cc:265] 4
+
+[Node 1] 2019-07-16T12:32:27 [INFO ] [Srt.cc:288] sendDown()...msg->address4
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:27 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:27 [INFO ] [new_aloha.cc:268] packet No7 resend in 15 s 
+[Node 1] 2019-07-16T12:32:27 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 4 and settimer
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:27 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:27 [INFO ] [new_aloha.cc:326] resend package No.2 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:27 [INFO ] [new_aloha.cc:330] packet discardNum : 3
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:27 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:30 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:30 [INFO ] [new_aloha.cc:326] resend package No.6 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:30 [INFO ] [new_aloha.cc:334] packet No6 resend in 21 s 
+[Node 1] 2019-07-16T12:32:30 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:30 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:31 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:31 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:31 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:31 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:31 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:31 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:31 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:31 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:31 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:31 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:31 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:31 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:31 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:33 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:33 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:33 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:32:33 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:32:33 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:32:33 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:32:33 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:33 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:33 [INFO ] [new_aloha.cc:268] packet No8 resend in 22 s 
+[Node 1] 2019-07-16T12:32:33 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:33 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:33 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:36 [INFO ] [new_aloha.cc:326] resend package No.3 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:36 [INFO ] [new_aloha.cc:334] packet No3 resend in 19 s 
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:36 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:36 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:36 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:36 [INFO ] [new_aloha.cc:326] resend package No.5 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:36 [INFO ] [new_aloha.cc:334] packet No5 resend in 19 s 
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:36 [INFO ] [new_aloha.cc:326] resend package No.4 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:36 [INFO ] [new_aloha.cc:334] packet No4 resend in 19 s 
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:36 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:38 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:38 [INFO ] [new_aloha.cc:326] resend package No.0 has 0 time to ReSendDown=================
+[Node 2] 2019-07-16T12:32:38 [INFO ] [new_aloha.cc:330] packet discardNum : 1
+[Node 2] 2019-07-16T12:32:38 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:38 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:38 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:39 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:39 [INFO ] [new_aloha.cc:326] resend package No.1 has 1 time to ReSendDown=================
+[Node 2] 2019-07-16T12:32:39 [INFO ] [new_aloha.cc:334] packet No1 resend in 15 s 
+[Node 2] 2019-07-16T12:32:39 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:39 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:42 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:42 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:42 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:42 [INFO ] [new_aloha.cc:326] resend package No.7 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:42 [INFO ] [new_aloha.cc:334] packet No7 resend in 17 s 
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:42 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:42 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:42 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:42 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:44 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:44 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:44 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:44 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:44 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:44 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:44 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:47 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:47 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:47 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:47 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:47 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:47 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:47 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:32:48 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:48 [INFO ] [new_aloha.cc:326] resend package No.2 has 2 time to ReSendDown=================
+[Node 2] 2019-07-16T12:32:48 [INFO ] [new_aloha.cc:334] packet No2 resend in 16 s 
+[Node 2] 2019-07-16T12:32:48 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:48 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:49 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:49 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:49 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:49 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:49 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:49 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:49 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:51 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:51 [INFO ] [new_aloha.cc:326] resend package No.6 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:51 [INFO ] [new_aloha.cc:334] packet No6 resend in 21 s 
+[Node 1] 2019-07-16T12:32:51 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:51 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:53 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:53 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:53 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:53 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:53 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:53 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:32:53 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:32:53 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:32:53 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:32:53 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:53 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:53 [INFO ] [new_aloha.cc:268] packet No9 resend in 17 s 
+[Node 1] 2019-07-16T12:32:53 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:32:53 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:53 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:54 [INFO ] [new_aloha.cc:326] resend package No.1 has 0 time to ReSendDown=================
+[Node 2] 2019-07-16T12:32:54 [INFO ] [new_aloha.cc:330] packet discardNum : 2
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:32:54 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:32:54 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:32:54 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:32:54 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:326] resend package No.3 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:330] packet discardNum : 4
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:326] resend package No.5 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:334] packet No5 resend in 17 s 
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:326] resend package No.8 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:334] packet No8 resend in 17 s 
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:326] resend package No.4 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:55 [INFO ] [new_aloha.cc:330] packet discardNum : 5
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:55 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:32:58 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:32:58 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:32:58 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:32:58 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:32:58 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:58 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:58 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:32:59 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:32:59 [INFO ] [new_aloha.cc:326] resend package No.7 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:32:59 [INFO ] [new_aloha.cc:334] packet No7 resend in 19 s 
+[Node 1] 2019-07-16T12:32:59 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:32:59 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:00 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:00 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:00 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:00 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:00 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:00 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:04 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:04 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:04 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:04 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:04 [INFO ] [new_aloha.cc:326] resend package No.2 has 1 time to ReSendDown=================
+[Node 2] 2019-07-16T12:33:04 [INFO ] [new_aloha.cc:334] packet No2 resend in 16 s 
+[Node 2] 2019-07-16T12:33:04 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:04 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:04 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:04 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:04 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:04 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:04 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:09 [INFO ] [demo.cc:147] send packet , there are 94 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:33:09 [INFO ] [demo.cc:160] SerialNum = 5
+[Node 1] 2019-07-16T12:33:09 [INFO ] [demo.cc:161] dest = 3
+[Node 1] 2019-07-16T12:33:09 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:33:09 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:33:09 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:09 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:09 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:33:09 [INFO ] [Srt.cc:263] 5
+
+[Node 1] 2019-07-16T12:33:09 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:33:09 [INFO ] [Srt.cc:265] 3
+
+[Node 1] 2019-07-16T12:33:09 [INFO ] [Srt.cc:288] sendDown()...msg->address3
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:09 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:09 [INFO ] [new_aloha.cc:268] packet No10 resend in 24 s 
+[Node 1] 2019-07-16T12:33:09 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 3 and settimer
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:09 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [libev_tool.h:30] Write 54 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:09 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:09 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:09 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:09 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:10 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:10 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:10 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:10 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:10 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:10 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:10 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:10 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:10 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:10 [INFO ] [new_aloha.cc:326] resend package No.9 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:10 [INFO ] [new_aloha.cc:334] packet No9 resend in 21 s 
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:10 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:11 [INFO ] [demo.cc:147] send packet , there are 96 more packets and I have 4 friends
+[Node 2] 2019-07-16T12:33:11 [INFO ] [demo.cc:160] SerialNum = 3
+[Node 2] 2019-07-16T12:33:11 [INFO ] [demo.cc:161] dest = 4
+[Node 2] 2019-07-16T12:33:11 [INFO ] [demo.cc:162] sour = 2
+[Node 2] 2019-07-16T12:33:11 [INFO ] [demo.cc:163] data_size = 1006
+[Node 2] 2019-07-16T12:33:11 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:11 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:33:11 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 2] 2019-07-16T12:33:11 [INFO ] [Srt.cc:263] 3
+
+[Node 2] 2019-07-16T12:33:11 [INFO ] [Srt.cc:264] 0
+
+[Node 2] 2019-07-16T12:33:11 [INFO ] [Srt.cc:265] 4
+
+[Node 2] 2019-07-16T12:33:11 [INFO ] [Srt.cc:288] sendDown()...msg->address4
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:11 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:11 [INFO ] [new_aloha.cc:268] packet No3 resend in 15 s 
+[Node 2] 2019-07-16T12:33:11 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 4 and settimer
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:11 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:11 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:12 [INFO ] [new_aloha.cc:326] resend package No.6 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:12 [INFO ] [new_aloha.cc:330] packet discardNum : 6
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:12 [INFO ] [new_aloha.cc:326] resend package No.5 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:12 [INFO ] [new_aloha.cc:330] packet discardNum : 7
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:12 [INFO ] [new_aloha.cc:326] resend package No.8 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:12 [INFO ] [new_aloha.cc:334] packet No8 resend in 23 s 
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:12 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:13 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:13 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:13 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:33:13 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:33:13 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:33:13 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:33:13 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:13 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:13 [INFO ] [new_aloha.cc:268] packet No11 resend in 23 s 
+[Node 1] 2019-07-16T12:33:13 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:13 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:13 [DEBUG] [libev_tool.h:30] Write 59 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:15 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:15 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:15 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:15 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:15 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:15 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:15 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:16 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:16 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:16 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:16 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:16 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:16 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:16 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:17 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:17 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:17 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:17 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:17 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:17 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:18 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:18 [INFO ] [new_aloha.cc:326] resend package No.7 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:18 [INFO ] [new_aloha.cc:330] packet discardNum : 8
+[Node 1] 2019-07-16T12:33:18 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:18 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:20 [INFO ] [demo.cc:147] send packet , there are 93 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:33:20 [INFO ] [demo.cc:160] SerialNum = 6
+[Node 1] 2019-07-16T12:33:20 [INFO ] [demo.cc:161] dest = 3
+[Node 1] 2019-07-16T12:33:20 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:33:20 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:33:20 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:20 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:20 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:33:20 [INFO ] [Srt.cc:263] 6
+
+[Node 1] 2019-07-16T12:33:20 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:33:20 [INFO ] [Srt.cc:265] 3
+
+[Node 1] 2019-07-16T12:33:20 [INFO ] [Srt.cc:288] sendDown()...msg->address3
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:20 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:20 [INFO ] [new_aloha.cc:268] packet No12 resend in 24 s 
+[Node 1] 2019-07-16T12:33:20 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 3 and settimer
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:20 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [libev_tool.h:30] Write 54 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:20 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:20 [INFO ] [new_aloha.cc:326] resend package No.2 has 0 time to ReSendDown=================
+[Node 2] 2019-07-16T12:33:20 [INFO ] [new_aloha.cc:330] packet discardNum : 3
+[Node 2] 2019-07-16T12:33:20 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:20 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:20 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:20 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:20 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:20 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:20 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:21 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:21 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:21 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:21 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:21 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:21 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:21 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:22 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:22 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:22 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:22 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:22 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:22 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:22 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:26 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:26 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:26 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:26 [INFO ] [new_aloha.cc:326] resend package No.3 has 2 time to ReSendDown=================
+[Node 2] 2019-07-16T12:33:26 [INFO ] [new_aloha.cc:334] packet No3 resend in 23 s 
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:26 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:27 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:27 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:27 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:27 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:27 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:27 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:27 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:31 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:31 [INFO ] [new_aloha.cc:326] resend package No.9 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:31 [INFO ] [new_aloha.cc:334] packet No9 resend in 19 s 
+[Node 1] 2019-07-16T12:33:31 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:31 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:32 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:32 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:32 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:32 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:32 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:32 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:33 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:33 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [INFO ] [new_aloha.cc:326] resend package No.10 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:33 [INFO ] [new_aloha.cc:334] packet No10 resend in 15 s 
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [libev_tool.h:30] Write 56 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:33 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:33 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:33 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:33 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:33 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:33:33 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:33:33 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:33:33 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:33:33 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:33 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:33 [INFO ] [new_aloha.cc:268] packet No13 resend in 15 s 
+[Node 1] 2019-07-16T12:33:33 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:33 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:33 [DEBUG] [libev_tool.h:30] Write 59 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:35 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:35 [INFO ] [new_aloha.cc:326] resend package No.8 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:35 [INFO ] [new_aloha.cc:330] packet discardNum : 9
+[Node 1] 2019-07-16T12:33:35 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:35 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:36 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:36 [INFO ] [new_aloha.cc:326] resend package No.11 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:36 [INFO ] [new_aloha.cc:334] packet No11 resend in 19 s 
+[Node 1] 2019-07-16T12:33:36 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:36 [DEBUG] [libev_tool.h:30] Write 61 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:39 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:39 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:39 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:39 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [clientsocket.cc:52] Read 86 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:39 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:39 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 2
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [sap.h:120] Layer: 2 Pid: 5 send Notification to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:39 [INFO ] [new_aloha.cc:137] recv a data packet and send up
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:39 [INFO ] [new_aloha.cc:178] send ack
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [schedule.h:92] Layer: 3 Pid: 2 receive Notification from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:39 [INFO ] [Srt.cc:168] Srt receive a packet from lower layer
+[Node 2] 2019-07-16T12:33:39 [INFO ] [Srt.cc:172] 100
+
+[Node 2] 2019-07-16T12:33:39 [INFO ] [Srt.cc:173] 49
+
+[Node 2] 2019-07-16T12:33:39 [INFO ] [Srt.cc:174] 2
+
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [sap.h:120] Layer: 3 Pid: 2 send Notification to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [schedule.h:92] Layer: 4 Pid: 1 receive Notification from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:39 [INFO ] [udp.cc:229] udp recv data: 
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [libev_tool.h:30] Write 7 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [libev_tool.h:30] Write 51 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:39 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:39 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:39 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:39 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:39 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:39 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:39 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:39 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:44 [INFO ] [new_aloha.cc:326] resend package No.12 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:44 [INFO ] [new_aloha.cc:334] packet No12 resend in 17 s 
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [libev_tool.h:30] Write 56 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:44 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:44 [DEBUG] [clientsocket.cc:52] Read 1017 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:44 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:44 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:44 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:44 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 4
+[Node 1] 2019-07-16T12:33:44 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:44 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:44 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:44 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:45 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [clientsocket.cc:52] Read 86 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:45 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [sap.h:120] Layer: 1 Pid: 1 send Notification to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [schedule.h:92] Layer: 2 Pid: 5 receive Notification from Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:45 [INFO ] [new_aloha.cc:101] new aloha recv something for MacId : 2
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [sap.h:120] Layer: 2 Pid: 5 send Notification to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:45 [INFO ] [new_aloha.cc:137] recv a data packet and send up
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:45 [INFO ] [new_aloha.cc:178] send ack
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [schedule.h:92] Layer: 3 Pid: 2 receive Notification from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:45 [INFO ] [Srt.cc:168] Srt receive a packet from lower layer
+[Node 2] 2019-07-16T12:33:45 [INFO ] [Srt.cc:172] 100
+
+[Node 2] 2019-07-16T12:33:45 [INFO ] [Srt.cc:173] 49
+
+[Node 2] 2019-07-16T12:33:45 [INFO ] [Srt.cc:174] 2
+
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [sap.h:120] Layer: 3 Pid: 2 send Notification to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [schedule.h:92] Layer: 4 Pid: 1 receive Notification from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:33:45 [INFO ] [udp.cc:229] udp recv data: 
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [libev_tool.h:30] Write 7 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [libev_tool.h:30] Write 51 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:45 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:45 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:45 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:45 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:45 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:45 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:45 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:45 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:45 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:45 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:45 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:48 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:48 [INFO ] [new_aloha.cc:326] resend package No.10 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:48 [INFO ] [new_aloha.cc:334] packet No10 resend in 24 s 
+[Node 1] 2019-07-16T12:33:48 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:48 [DEBUG] [libev_tool.h:30] Write 56 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:48 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:48 [INFO ] [new_aloha.cc:326] resend package No.13 has 2 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:48 [INFO ] [new_aloha.cc:334] packet No13 resend in 24 s 
+[Node 1] 2019-07-16T12:33:48 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:48 [DEBUG] [libev_tool.h:30] Write 61 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:49 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:33:49 [INFO ] [new_aloha.cc:326] resend package No.3 has 1 time to ReSendDown=================
+[Node 2] 2019-07-16T12:33:49 [INFO ] [new_aloha.cc:334] packet No3 resend in 18 s 
+[Node 2] 2019-07-16T12:33:49 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:49 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 2] 2019-07-16T12:33:49 [DEBUG] [libev_tool.h:30] Write 55 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:50 [INFO ] [demo.cc:147] send packet , there are 92 more packets and I have 4 friends
+[Node 1] 2019-07-16T12:33:50 [INFO ] [demo.cc:160] SerialNum = 7
+[Node 1] 2019-07-16T12:33:50 [INFO ] [demo.cc:161] dest = 3
+[Node 1] 2019-07-16T12:33:50 [INFO ] [demo.cc:162] sour = 1
+[Node 1] 2019-07-16T12:33:50 [INFO ] [demo.cc:163] data_size = 1006
+[Node 1] 2019-07-16T12:33:50 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:50 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:50 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:33:50 [INFO ] [Srt.cc:263] 7
+
+[Node 1] 2019-07-16T12:33:50 [INFO ] [Srt.cc:264] 0
+
+[Node 1] 2019-07-16T12:33:50 [INFO ] [Srt.cc:265] 3
+
+[Node 1] 2019-07-16T12:33:50 [INFO ] [Srt.cc:288] sendDown()...msg->address3
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:50 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:50 [INFO ] [new_aloha.cc:268] packet No14 resend in 19 s 
+[Node 1] 2019-07-16T12:33:50 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 3 and settimer
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:50 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [libev_tool.h:30] Write 53 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [libev_tool.h:30] Write 54 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:50 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:50 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:50 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:50 [INFO ] [new_aloha.cc:326] resend package No.9 has 0 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:50 [INFO ] [new_aloha.cc:330] packet discardNum : 10
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:50 [DEBUG] [libev_tool.h:30] Write 60 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:53 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [demo.cc:129] socket read Successful 75
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:53 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:53 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T12:33:53 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T12:33:53 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T12:33:53 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T12:33:53 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:53 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:53 [INFO ] [new_aloha.cc:268] packet No15 resend in 18 s 
+[Node 1] 2019-07-16T12:33:53 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 2 and settimer
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T12:33:53 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [libev_tool.h:30] Write 58 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:53 [DEBUG] [libev_tool.h:30] Write 59 bytes data to fd 10
+[Node 2] 2019-07-16T12:33:55 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 2] 2019-07-16T12:33:55 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 2] 2019-07-16T12:33:55 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 2] 2019-07-16T12:33:55 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 2] 2019-07-16T12:33:55 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:33:55 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:55 [INFO ] [new_aloha.cc:326] resend package No.11 has 1 time to ReSendDown=================
+[Node 1] 2019-07-16T12:33:55 [INFO ] [new_aloha.cc:334] packet No11 resend in 16 s 
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [libev_tool.h:30] Write 61 bytes data to fd 10
+[Node 1] 2019-07-16T12:33:55 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:55 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:55 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:55 [DEBUG] [libev_tool.h:30] Write 86 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:56 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T12:33:56 [DEBUG] [clientsocket.cc:52] Read 1 bytes data from fd 8
+[Node 1] 2019-07-16T12:33:56 [INFO ] [simulate.cc:119] Simulate Channel receive data
+[Node 1] 2019-07-16T12:33:56 [INFO ] [simulate.cc:134] RX DATA RSP
+[Node 1] 2019-07-16T12:33:56 [DEBUG] [sap.h:112] Layer: 1 Pid: 1 send Response to Layer: 2 Pid: 5
+[Node 1] 2019-07-16T12:33:56 [DEBUG] [schedule.h:77] Layer: 2 Pid: 5 receive Response from Layer: 1 Pid: 1
+[Node 1] 2019-07-16T12:33:56 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T12:33:57 [ERROR] [libev_tool.cc:48] the errornum is 104 and the mes is Connection reset by peer
+[Node 1] 2019-07-16T12:33:57 [DEBUG] [demo.cc:124] some error happen when read
+[Node 2] 2019-07-16T12:34:00 [INFO ] [demo.cc:147] send packet , there are 95 more packets and I have 4 friends
+[Node 2] 2019-07-16T12:34:00 [INFO ] [demo.cc:160] SerialNum = 4
+[Node 2] 2019-07-16T12:34:00 [INFO ] [demo.cc:161] dest = 3
+[Node 2] 2019-07-16T12:34:00 [INFO ] [demo.cc:162] sour = 2
+[Node 2] 2019-07-16T12:34:00 [INFO ] [demo.cc:163] data_size = 1006
+[Node 2] 2019-07-16T12:34:00 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:34:00 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:34:00 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 2] 2019-07-16T12:34:00 [INFO ] [Srt.cc:263] 4
+
+[Node 2] 2019-07-16T12:34:00 [INFO ] [Srt.cc:264] 0
+
+[Node 2] 2019-07-16T12:34:00 [INFO ] [Srt.cc:265] 3
+
+[Node 2] 2019-07-16T12:34:00 [INFO ] [Srt.cc:288] sendDown()...msg->address3
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:34:00 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [schedule.h:62] Layer: 2 Pid: 5 receive Request from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [sap.h:105] Layer: 2 Pid: 5 send Request to Layer: 1 Pid: 1
+[Node 2] 2019-07-16T12:34:00 [INFO ] [new_aloha.cc:268] packet No4 resend in 22 s 
+[Node 2] 2019-07-16T12:34:00 [INFO ] [new_aloha.cc:270] send down data packet to MacId: 3 and settimer
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [sap.h:112] Layer: 2 Pid: 5 send Response to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T12:34:00 [INFO ] [new_aloha.cc:296] send rsp to NET_LAYER
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [schedule.h:77] Layer: 3 Pid: 2 receive Response from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [schedule.h:62] Layer: 1 Pid: 1 receive Request from Layer: 2 Pid: 5
+[Node 2] 2019-07-16T12:34:00 [DEBUG] [libev_tool.h:30] Write 1017 bytes data to fd 8
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 1] 2019-07-16T18:43:44 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T18:43:44 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T18:43:44 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T18:43:44 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T18:43:44 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T18:43:44 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T18:43:44 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T18:43:44 [INFO ] [demo.cc:267] post is 9080
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:247] target ID has 1
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:247] target ID has 3
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:247] target ID has 4
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:247] target ID has 5
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:251] 7 100 4 10 50 90
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 2] 2019-07-16T18:43:51 [INFO ] [sap.h:70] Start to initialize each module
+[Node 2] 2019-07-16T18:43:51 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 2] 2019-07-16T18:43:51 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 2] 2019-07-16T18:43:51 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 2] 2019-07-16T18:43:51 [INFO ] [Srt.cc:124] toApp()
+[Node 2] 2019-07-16T18:43:51 [INFO ] [udp.cc:75] Udp Init
+[Node 2] 2019-07-16T18:43:51 [INFO ] [sap.h:78] Finish module initialize
+[Node 2] 2019-07-16T18:43:51 [INFO ] [demo.cc:267] post is 9081
+[Node 2] 2019-07-16T18:45:02 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:45:02 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [demo.cc:129] socket read Successful 10
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:45:02 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:45:02 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T18:45:02 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T18:45:02 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T18:45:02 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T18:45:02 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 7
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:45:02 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T18:45:02 [DEBUG] [schedule.h:62] Layer: 2 Pid: 7 receive Request from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T18:45:21 [INFO ] [demo.cc:147] send packet , there are 99 more packets and I have 4 friends
+[Node 2] 2019-07-16T18:45:21 [INFO ] [demo.cc:160] SerialNum = 0
+[Node 2] 2019-07-16T18:45:21 [INFO ] [demo.cc:161] dest = 4
+[Node 2] 2019-07-16T18:45:21 [INFO ] [demo.cc:162] sour = 2
+[Node 2] 2019-07-16T18:45:21 [INFO ] [demo.cc:163] data_size = 1006
+[Node 2] 2019-07-16T18:45:21 [INFO ] [demo.cc:164] data_buffer = underwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwaterunderwater
+[Node 2] 2019-07-16T18:45:21 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 2] 2019-07-16T18:45:21 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 2] 2019-07-16T18:45:21 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 2] 2019-07-16T18:45:21 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 2] 2019-07-16T18:45:21 [INFO ] [Srt.cc:263] 0
+
+[Node 2] 2019-07-16T18:45:21 [INFO ] [Srt.cc:264] 0
+
+[Node 2] 2019-07-16T18:45:21 [INFO ] [Srt.cc:265] 4
+
+[Node 2] 2019-07-16T18:45:21 [INFO ] [Srt.cc:288] sendDown()...msg->address4
+[Node 2] 2019-07-16T18:45:21 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 7
+[Node 2] 2019-07-16T18:45:21 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 2] 2019-07-16T18:45:21 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 2] 2019-07-16T18:45:21 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 2] 2019-07-16T18:45:21 [DEBUG] [schedule.h:62] Layer: 2 Pid: 7 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 1] 2019-07-16T18:47:11 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T18:47:11 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T18:47:11 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T18:47:11 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T18:47:11 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T18:47:11 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T18:47:11 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T18:47:11 [INFO ] [demo.cc:267] post is 9080
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:247] target ID has 1
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:247] target ID has 3
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:247] target ID has 4
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:247] target ID has 5
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:251] 7 100 4 10 50 90
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 2] 2019-07-16T18:47:14 [INFO ] [sap.h:70] Start to initialize each module
+[Node 2] 2019-07-16T18:47:14 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 2] 2019-07-16T18:47:14 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 2] 2019-07-16T18:47:14 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 2] 2019-07-16T18:47:14 [INFO ] [Srt.cc:124] toApp()
+[Node 2] 2019-07-16T18:47:14 [INFO ] [udp.cc:75] Udp Init
+[Node 2] 2019-07-16T18:47:14 [INFO ] [sap.h:78] Finish module initialize
+[Node 2] 2019-07-16T18:47:14 [INFO ] [demo.cc:267] post is 9081
+[Node 2] 2019-07-16T18:47:23 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:47:26 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [demo.cc:129] socket read Successful 10
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:47:26 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:47:26 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T18:47:26 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T18:47:26 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T18:47:26 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T18:47:26 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 7
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:47:26 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T18:47:26 [DEBUG] [schedule.h:62] Layer: 2 Pid: 7 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 1] 2019-07-16T18:47:40 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T18:47:40 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T18:47:40 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T18:47:40 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T18:47:40 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T18:47:40 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T18:47:40 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T18:47:40 [INFO ] [demo.cc:267] post is 9080
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:247] target ID has 1
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:247] target ID has 3
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:247] target ID has 4
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:247] target ID has 5
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:251] 7 100 4 10 50 90
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 2] 2019-07-16T18:47:44 [INFO ] [sap.h:70] Start to initialize each module
+[Node 2] 2019-07-16T18:47:44 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 2] 2019-07-16T18:47:44 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 2] 2019-07-16T18:47:44 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 2] 2019-07-16T18:47:44 [INFO ] [Srt.cc:124] toApp()
+[Node 2] 2019-07-16T18:47:44 [INFO ] [udp.cc:75] Udp Init
+[Node 2] 2019-07-16T18:47:44 [INFO ] [sap.h:78] Finish module initialize
+[Node 2] 2019-07-16T18:47:44 [INFO ] [demo.cc:267] post is 9081
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 1] 2019-07-16T18:48:47 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T18:48:47 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T18:48:47 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T18:48:47 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T18:48:47 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T18:48:47 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T18:48:47 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T18:48:47 [INFO ] [demo.cc:267] post is 9080
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:247] target ID has 1
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:247] target ID has 3
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:247] target ID has 4
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:247] target ID has 5
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:251] 7 100 4 10 50 90
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 2] 2019-07-16T18:48:50 [INFO ] [sap.h:70] Start to initialize each module
+[Node 2] 2019-07-16T18:48:50 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 2] 2019-07-16T18:48:50 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 2] 2019-07-16T18:48:50 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 2] 2019-07-16T18:48:50 [INFO ] [Srt.cc:124] toApp()
+[Node 2] 2019-07-16T18:48:50 [INFO ] [udp.cc:75] Udp Init
+[Node 2] 2019-07-16T18:48:50 [INFO ] [sap.h:78] Finish module initialize
+[Node 2] 2019-07-16T18:48:50 [INFO ] [demo.cc:267] post is 9081
+[Node 2] 2019-07-16T18:49:00 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:49:15 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [demo.cc:129] socket read Successful 10
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:49:15 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:49:15 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T18:49:15 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T18:49:15 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T18:49:15 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T18:49:15 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 7
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:49:15 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T18:49:15 [DEBUG] [schedule.h:62] Layer: 2 Pid: 7 receive Request from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:247] target ID has 2
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:247] target ID has 3
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:247] target ID has 4
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:247] target ID has 5
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:251] 10 100 4 10 50 90
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 1] 2019-07-16T18:51:24 [INFO ] [sap.h:70] Start to initialize each module
+[Node 1] 2019-07-16T18:51:24 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 1] 2019-07-16T18:51:24 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 1] 2019-07-16T18:51:24 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 1] 2019-07-16T18:51:24 [INFO ] [Srt.cc:124] toApp()
+[Node 1] 2019-07-16T18:51:24 [INFO ] [udp.cc:75] Udp Init
+[Node 1] 2019-07-16T18:51:24 [INFO ] [sap.h:78] Finish module initialize
+[Node 1] 2019-07-16T18:51:24 [INFO ] [demo.cc:267] post is 9080
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:247] target ID has 1
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:247] target ID has 3
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:247] target ID has 4
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:247] target ID has 5
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:251] 7 100 4 10 50 90
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:261] the size of protocol is 3
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:262] the len of protocol header is 5
+[Node 2] 2019-07-16T18:51:27 [INFO ] [sap.h:70] Start to initialize each module
+[Node 2] 2019-07-16T18:51:27 [INFO ] [simulate.cc:85] SimulateChannel Init : Map the opened fd of socket and DAP
+[Node 2] 2019-07-16T18:51:27 [DEBUG] [clientsocket.h:48] INSERT ClientSocketMap
+[Node 2] 2019-07-16T18:51:27 [INFO ] [Srt.cc:74] Srt configuration is complete
+[Node 2] 2019-07-16T18:51:27 [INFO ] [Srt.cc:124] toApp()
+[Node 2] 2019-07-16T18:51:27 [INFO ] [udp.cc:75] Udp Init
+[Node 2] 2019-07-16T18:51:27 [INFO ] [sap.h:78] Finish module initialize
+[Node 2] 2019-07-16T18:51:27 [INFO ] [demo.cc:267] post is 9081
+[Node 2] 2019-07-16T18:51:36 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [demo.cc:93] Connect Successful
+[Node 1] 2019-07-16T18:51:41 [ERROR] [libev_tool.cc:48] the errornum is 11 and the mes is Resource temporarily unavailable
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [demo.cc:129] socket read Successful 10
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [sap.h:105] Layer: 4 Pid: 1 send Request to Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:51:41 [INFO ] [udp.cc:168] Udp send msg from console
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [schedule.h:62] Layer: 3 Pid: 2 receive Request from Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:51:41 [INFO ] [Srt.cc:260] Srt receive a packet from upper layer
+[Node 1] 2019-07-16T18:51:41 [INFO ] [Srt.cc:263] 100
+
+[Node 1] 2019-07-16T18:51:41 [INFO ] [Srt.cc:264] 49
+
+[Node 1] 2019-07-16T18:51:41 [INFO ] [Srt.cc:265] 2
+
+[Node 1] 2019-07-16T18:51:41 [INFO ] [Srt.cc:288] sendDown()...msg->address2
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [sap.h:105] Layer: 3 Pid: 2 send Request to Layer: 2 Pid: 7
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [sap.h:112] Layer: 3 Pid: 2 send Response to Layer: 4 Pid: 1
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [schedule.h:77] Layer: 4 Pid: 1 receive Response from Layer: 3 Pid: 2
+[Node 1] 2019-07-16T18:51:41 [INFO ] [udp.cc:291] Udp Receive Response from lower layer
+[Node 1] 2019-07-16T18:51:41 [DEBUG] [schedule.h:62] Layer: 2 Pid: 7 receive Request from Layer: 3 Pid: 2
