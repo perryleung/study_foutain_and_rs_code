@@ -1,0 +1,20 @@
+1、下载anaconda Python 2.7版本，下载链接如下：
+https://www.anaconda.com/distribution/#download-section
+
+2、打开终端，安装anaconda python
+sudo sh Anaconda2-2019.03-Linux-x86_64.sh 
+
+3、查看Python版本是否为anaconda
+which python
+
+4、安装Linux版本的matlab：
+https://blog.csdn.net/Jesse_Mx/article/details/53956358
+
+5、检查启动matlab：
+cd /usr/local/MATLAB/R2016b/bin/
+sudo ./matlab
+
+6、配置Python调用MATLAB环境：
+https://blog.csdn.net/sunny_xsc1994/article/details/79254196
+
+
