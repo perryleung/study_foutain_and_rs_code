@@ -179,7 +179,7 @@ class EW_Fountain(Fountain):
         self.w1_size = int(round(self.num_chunks * self.w1_p))  # 重要窗的规模大小
         #  self.w2_size = int(self.num_chunks - self.w1_size)   
         self.w2_size = self.num_chunks                          # 次要窗的规模大小
-        self.w1_random_chunk_gen = robust_soliton(self.w1_size) # 
+        self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
         self.w2_random_chunk_gen = robust_soliton(self.w2_size)
 
         #  logging.info('w1_size : ', self.w1_size)
