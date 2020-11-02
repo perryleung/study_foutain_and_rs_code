@@ -30,7 +30,7 @@ class Sender():
             level=3,                    #小波变换等级
             wavelet='bior4.4',          #小波类型
             mode = 'periodization',     #小波变换模式
-            fountain_chunk_size = 1000, #喷泉码块多少数据包
+            fountain_chunk_size = 1000, #单个喷泉码块有多少字节数据
             fountain_type= 'normal',    #数据包类型，默认是一般的数据包
             drop_interval=5,            #水滴间隔是什么意思，喷出时间间隔
             port=PORT,                  #端口号

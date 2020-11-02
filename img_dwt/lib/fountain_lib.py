@@ -1,6 +1,7 @@
 # _*_ coding=utf-8 _*_
 from __future__ import print_function
 from math import ceil, log
+from additional_func import *
 import sys, os
 import random
 import json
@@ -65,30 +66,6 @@ def robust_soliton(K, c = 0.03, delta = 0.05):
     while True :
         # i = np.random.choice(d, 1, False, u_d_f)[0]
         yield np.random.choice(d, 1, False, u_d_f)[0]
-    
-def first_degree_distribution_func():
-        #Liu Yachen, 5.4
-        d = [1, 2, 3, 4, 5, 8, 9, 19, 65, 66]
-        d_f = [0.0266, 0.5021, 0.0805, 0.1388, 0.0847, 0.046, 0.0644, 0.0326, 0.0205, 0.0038]
-        while True:
-            i = np.random.choice(d, 1, False, d_f)[0]
-            yield i
-
-def second_degree_distribution_func():
-        #Shokrollahi, 5.78
-        d = [1, 2, 3, 4, 5, 8, 9, 19, 65, 66]
-        d_f = [0.007969, 0.49357, 0.16622, 0.072646, 0.082558, 0.056058, 0.037299, 0.05559, 0.025023, 0.003135]
-        while True:
-            i = np.random.choice(d, 1, False, d_f)[0]
-            yield i
-
-def third_degree_distribution_func():
-        #Liu Cong, 5.8703
-        d = [1, 2, 3, 4, 5, 8, 9, 19, 65, 66]
-        d_f = [0.0266, 0.5021, 0.0805, 0.1388, 0.0847, 0.046, 0.0644, 0.0326, 0.0205, 0.0038]
-        while True:
-            i = np.random.choice(d, 1, False, d_f)[0]
-            yield i
 
 class Droplet:
     ''' 储存随机数种子，并有一个计算本水滴中包含的数据块编码的方法'''
@@ -117,7 +94,7 @@ class Droplet:
         使用一个字节存储chunks_size,
         num_chunks int 度数，一个字节
         seed 随机数种子，两个字节
-        返回的结构是一个字节加后面跟着2 * n 个字节，后续跟着数据
+        返回的结构是一个字节加后面跟着2 * n 个字节，后续跟着数据（备注错了应该是1+2+data字节）
         '''
         num_chunks_bits = format(int(self.num_chunks), "016b")  # 单字节记录num_chunks
         seed_bits = format(int(self.seed), "032b")  # 双字节记录种子
@@ -176,11 +153,11 @@ class EW_Fountain(Fountain):
         self.w1_p=w1_size
         self.w1_pro=w1_pro
         self.windows_id_gen = self.windows_selection()          # 选择两种窗口中的其中之一
-        self.w1_size = int(round(self.num_chunks * self.w1_p))  # 重要窗的规模大小
+        self.w1_size = int(round(self.num_chunks * self.w1_p))  # 重要窗的规模大小，既可以容下多少个编码块
         #  self.w2_size = int(self.num_chunks - self.w1_size)   
         self.w2_size = self.num_chunks                          # 次要窗的规模大小
         self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
-        self.w2_random_chunk_gen = robust_soliton(self.w2_size)
+        self.w2_random_chunk_gen = robust_soliton(self.w2_size) # 返回的是度数，代表编码块个数
 
         #  logging.info('w1_size : ', self.w1_size)
         #  logging.info('w2_size : ', self.w2_size)
