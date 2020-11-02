@@ -103,7 +103,7 @@ class Stack_Send_File():
             time.sleep(self.packet_interval)
             packet_to_send = app_header + \
                     struct.pack("H", send_serial) + \
-                    self.file_contain[send_tap : min((send_tap + self.chunk_size), self.file_size)]
+                    self.file_contain[send_tap : min((send_tap + self.chunk_size), self.file_size)]#防溢出
             self.stack_fd.send(packet_to_send)
             # logging.info("send packet len {} : {}".format(len(packet_to_send), [ord(ii) for ii in packet_to_send]))
             logging.info("send {}\tall  {}".format(send_serial, NUM_PACKET))
@@ -150,31 +150,32 @@ class Stack_Recv_File():
     def recv_main(self):
         img_time = 0
         while True:
-            self.stack_fd.setblocking(0)
+            self.stack_fd.setblocking(0) # a socket without blocking, error shows if it occurs
             ready = select.select([self.stack_fd], [], [], self.drop_interval)
-            if ready[0]:
-                read_byte = self.stack_fd.recv(999)
-                chunk_size = ord(read_byte[4])
+            if ready[0]:    # 仅作为判断
+                read_byte = self.stack_fd.recv(999)     # 接收足够多的字节数，以保证所有被发送的数据能被接收到
+                chunk_size = ord(read_byte[4])          # 获取第五个字节，chunk_size，数据部分大小
                 packet_byte = self.packet_from_readByte(read_byte)
                 if not packet_byte == None:
                     self.recv_by_now += 1
                     # logging.info("recv packet {} : {}".format(len(packet_byte),[ord(ii) for ii in packet_byte]))
-                    send_serial = struct.unpack("H", packet_byte[7:9])[0]
-                    packet_offset = chunk_size * send_serial
+                    send_serial = struct.unpack("H", packet_byte[7:9])[0] # 第7、8字节，数据包编号，H=unsignedshort，2bytes
+                    packet_offset = chunk_size * send_serial    # 通过偏移量一个个包的数据叠加上去
                     print("********  packet_offset: %d", packet_offset) 
-                    packet_nums = struct.unpack("H", packet_byte[5:7])[0] 
+                    packet_nums = struct.unpack("H", packet_byte[5:7])[0] # 滴5、6字节，发送数据包总数，int类型
                     logging.info("packet serial:{}\t all packet num:{:d} recv by now: {}".format(
                         send_serial, packet_nums, self.recv_by_now))
                     logging.info('packet_offset {}'.format(packet_offset))
                     # 重置文件偏移量
                     self.img_fd.seek(0, 0)
                     self.img_fd.seek(packet_offset, 1)
-                    self.img_fd.write(packet_byte[9:])
-                    self.recv_packet.append(send_serial)
-                    # if self.recv_by_now >= (packet_nums - 7):   # RS in this sentance
-		    if self.recv_by_now > packet_nums:	# not RS in this sentance
+                    self.img_fd.write(packet_byte[9:])      # 写入从第9个字节到末尾的所有数据
+                    self.recv_packet.append(send_serial)    # 收到的数据包编号列表
+                    # 开始判断是否接收到足够的包来解码，如果足够则开始以下代码
+                    if self.recv_by_now >= (packet_nums - 7):   # RS in this sentance, int type
+		            # if self.recv_by_now > packet_nums:	# not RS in this sentance
                         # time.sleep(10) # 防止中途有丢包收不到
-                        self.img_fd.close()
+                        self.img_fd.close() # 关闭文件对象
                         if ord(packet_byte[3]) == BMP_TYPE:
                             os.rename(self.img_name, self.img_name + ".bmp")
                             logging.info("recv done , img name: {}".format(self.img_name + ".bmp"))
@@ -205,7 +206,7 @@ class Stack_Recv_File():
                 byte_to_deal -= 46
             else:
                 packet_size = struct.unpack("B", read_byte[deal_tap + 4])[0] # app_header
-                return read_byte[deal_tap:packet_size + 5 + 2 + 2]
+                return read_byte[deal_tap:packet_size + 5 + 2 + 2] #should be 5+2+2+packet_size
         return None    
 
 

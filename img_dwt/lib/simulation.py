@@ -20,8 +20,8 @@ import pickle as pkl
 
 plt.ion()
 BASE_DIR = os.path.dirname(__file__)
-LIB_PATH = os.path.join(BASE_DIR, 'lib')
-DOC_PATH = os.path.join(BASE_DIR, 'doc')
+LIB_PATH = os.path.join(BASE_DIR, '../lib')
+DOC_PATH = os.path.join(BASE_DIR, '../doc')
 SIM_PATH = os.path.join(BASE_DIR, 'simulation')
 WHALE_IMG = os.path.join(DOC_PATH, 'whale_512.bmp')
 WHALE_128_IMG = os.path.join(DOC_PATH, 'whale_128.bmp')
