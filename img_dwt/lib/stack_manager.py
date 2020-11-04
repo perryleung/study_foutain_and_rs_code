@@ -73,7 +73,7 @@ STOP_APP : stop_app
 
 
 def find_stop_app(read_byte):
-    stop_app_pattern = ''.join([PORT_LIKE, SIGNIFICANT, '.', STOP_APP])
+    stop_app_pattern = ''.join([PORT_LIKE, SIGNIFICANT, '.', STOP_APP]) #固定顺序的序号，找到发现这一串序号就意味着是stop_app
     if re.search(stop_app_pattern, read_byte):
         #在stop_app_pattern中找read_byte
         return True
@@ -83,12 +83,13 @@ def find_stop_app(read_byte):
 class Stack_Sender(EW_Sender):
     def __init__(self,
             img_path = WHALE_IMG_128,
-            chunk_size = 60,
-            stack_port = 9080,
-            seed = 233
+            chunk_size = 60,    # 一个数据块字节大小
+            stack_port = 9080,  # 连接的stack端口
+            seed = 233          # 种子数是不是乱设的呢？
             ):
         self.stack_port = stack_port    
         Sender.__init__(self, img_path, fountain_chunk_size=chunk_size, fountain_type='ew', seed=seed)
+        # 继承Sender后重新初始化块大小、喷泉类型、种子数
         self.drop_interval = 10
         ACK_app = False # 是否收到ACK_app
         

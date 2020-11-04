@@ -1,7 +1,7 @@
 # _*_ coding=utf-8 _*_
 from __future__ import print_function
 from math import ceil, log
-from additional_func import *
+from degree_distribution_func import *
 import sys, os
 import random
 import json
@@ -42,30 +42,7 @@ def randChunkNums(num_chunks):
     # random.sample 是一个均匀分布的采样
     return random.sample(xrange(num_chunks), size)
 
-def soliton(K):
-    ''' 理想弧波函数 '''
-    d = [ii + 1 for ii in range(K)] # a list with 1 ~ K 
-    d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
-    while 1:
-        # i = np.random.choice(d, 1, False, d_f)[0]
-        yield np.random.choice(d, 1, False, d_f)[0]
 
-def robust_soliton(K, c = 0.03, delta = 0.05):
-    ''' 鲁棒理想弧波函数 '''
-    d = [ii + 1 for ii in range(K)]
-    soliton_d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
-    S = c * log(K / delta) * (K ** 0.5)
-    interval_0 = [ii + 1 for ii in list(range(int(round(K / S)) - 1))]
-    interval_1 = [int(round(K / S))]
-    tau = [S / (K * dd) if dd in interval_0 
-            else S / float(K) * log(S / delta) if dd in interval_1
-            else 0 for dd in d]
-    Z = sum([soliton_d_f[ii] + tau[ii] for ii in range(K)])
-    u_d_f = [(soliton_d_f[ii] + tau[ii]) / Z for ii in range(K)]
-
-    while True :
-        # i = np.random.choice(d, 1, False, u_d_f)[0]
-        yield np.random.choice(d, 1, False, u_d_f)[0]
 
 class Droplet:
     ''' 储存随机数种子，并有一个计算本水滴中包含的数据块编码的方法'''
@@ -228,7 +205,7 @@ class Glass:
     def __init__(self, num_chunks):
         self.entries = []
         self.droplets = []      # 水滴数据列表
-        self.num_chunks = num_chunks
+        self.num_chunks = num_chunks    # 总个数
         self.chunks = [None] * num_chunks
         self.chunk_bit_size = 0
         

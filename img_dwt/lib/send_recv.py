@@ -21,7 +21,7 @@ WHALE_IMG= os.path.join(DOC_PATH, 'whale.bmp')
 LENA_IMG = os.path.join(DOC_PATH, 'lena.png')
 
 HOST = '127.0.0.1'
-PORT = 9999
+PORT = 9999 # 应用层端口号是这个9999
 
 
 
@@ -37,7 +37,7 @@ class Sender():
             w1_size=0.1,                #重要参数窗口的大小
             w1_pro=0.084,               #重要参数窗口的概率
             seed=None):                 #种子数
-        self.drop_id = 0                #
+        self.drop_id = 0                
         self.eng = matlab.engine.start_matlab()
         self.eng.addpath(LIB_PATH)
         self.img_path = img_path
@@ -193,7 +193,7 @@ class Receiver():
         self.drop_id = 0
         self.eng = matlab.engine.start_matlab()
         self.eng.addpath(LIB_PATH)
-        self.glass = Glass(0)           # 水杯对象
+        self.glass = Glass(0)           # 水杯对象，0个数据块的总个数
         self.chunk_size = 0             # 
         self.current_recv_bits_len = 0  # 接收到的比特长度
         self.i_spiht = []               # 逆多级树集合分裂变换
@@ -207,10 +207,10 @@ class Receiver():
         self.drop_byte_size = 99999     # 
         self.test_dir = os.path.join(SIM_PATH,time.asctime().replace(' ', '_').replace(':', '_'))
         os.mkdir(self.test_dir)         
-        self.socket_recv = self.socket_builder()
+        self.socket_recv = self.socket_builder()    # 这里调用的是最小子类stack_receiver()的socket_builder()
 
         while True:
-            self.begin_to_catch()
+            self.begin_to_catch()   # 这里调用的是stack_receiver()的begin_to_catch()
             if self.glass.isDone():
                 self.socket_recv.close()
                 print('recv done')
