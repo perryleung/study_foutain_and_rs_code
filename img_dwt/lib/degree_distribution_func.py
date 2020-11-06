@@ -2,7 +2,6 @@ import numpy as np
 from math import log
 
 def soliton(K):
-    ''' 理想弧波函数 '''
     d = [ii + 1 for ii in range(K)] # a list with 1 ~ K 
     d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
     while 1:
@@ -10,7 +9,6 @@ def soliton(K):
         yield np.random.choice(d, 1, False, d_f)[0]
 
 def robust_soliton(K, c = 0.03, delta = 0.05):
-    ''' 鲁棒理想弧波函数 '''
     d = [ii + 1 for ii in range(K)]
     soliton_d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
     S = c * log(K / delta) * (K ** 0.5)
@@ -51,7 +49,6 @@ def third_degree_distribution_func():
         yield i
 
 def binary_exp_func(k):
-    ''' 二进制指数度分布函数 '''
     d = [ii + 1 for ii in range(k)] # a list with 1 ~ k -1
     d_f = [1.0 / 2**(k-1) if ii == k else 1.0 / (2 ** ii) for ii in d]
     while True:
@@ -59,10 +56,6 @@ def binary_exp_func(k):
         yield np.random.choice(d, 1, False, d_f)[0]
 
 def open_distrubution_func(i, a, k):
-    ''' 开关度分布函数
-    i：LT码编码包ID
-    a：开关系数
-    '''
     if i <= a * k:
         yield binary_exp_func(k)
     else:
