@@ -2,7 +2,6 @@ import numpy as np
 from math import log
 
 def soliton(K):
-#''' 理想弧波函数 '''
     d = [ii + 1 for ii in range(K)] # a list with 1 ~ K 
     d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
     while 1:
@@ -10,7 +9,6 @@ def soliton(K):
         yield np.random.choice(d, 1, False, d_f)[0]
 
 def robust_soliton(K, c = 0.03, delta = 0.05):
-#''' 鲁棒理想弧波函数 '''
     d = [ii + 1 for ii in range(K)]
     soliton_d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
     S = c * log(K / delta) * (K ** 0.5)
@@ -30,6 +28,13 @@ def first_degree_distribution_func():
 #'''Liu Yachen, 5.4'''
     d = [1, 2, 3, 4, 5, 8, 9, 19, 65, 66]
     d_f = [0.0266, 0.5021, 0.0805, 0.1388, 0.0847, 0.046, 0.0644, 0.0326, 0.0205, 0.0038]
+    while True:
+        i = np.random.choice(d, 1, False, d_f)[0]
+        yield i
+def new_first_degree_distribution_func():
+#'''Liu Yachen, 5.4'''
+    d = [1, 2, 3, 4, 5, 8, 9, 19, 65, 66]
+    d_f = [0.0266, 0.497079, 0.0805, 0.1388, 0.0847, 0.046, 0.0644, 0.0326, 0.0205, 0.008821]
     while True:
         i = np.random.choice(d, 1, False, d_f)[0]
         yield i
@@ -67,17 +72,18 @@ def mrds_func(K, b = 0.7, n = 3, c = 0.05, delta = 0.05,a = 0.6):
         yield i
 
 def binary_exp_func(k):
-#''' 二进制指数度分布函数 '''
+    d = [ii + 1 for ii in range(k)] # a list with 1 ~ k -1
     d = [ii + 1 for ii in range(k)] 
     d_f = [1.0 / 2**(k-1) if ii == k else 1.0 / (2 ** ii) for ii in d]
     while True:
         # i = np.random.choice(d, 1, False, d_f)[0]
         yield np.random.choice(d, 1, False, d_f)[0]
 
-def open_distrubution_func(i, a, k):
-#开关度分布函数
-#i：LT码编码包ID
-#a：开关系数
+def open_distribution_func(i, a, k):
+    if i <= a * k:
+        yield binary_exp_func(k)
+    else:
+        yield robust_soliton(k)
     while True:
         if i <= a * k:
             yield binary_exp_func(k)

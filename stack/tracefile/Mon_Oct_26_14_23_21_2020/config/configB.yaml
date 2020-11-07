@@ -2,37 +2,37 @@ Srt:
   entry1:
   - 1
   - 1
-  - 0
+  - 1
   entry2:
   - 2
   - 2
-  - 1
+  - 0
   entry3:
   - 3
-  - 2
-  - 2
+  - 3
+  - 1
   entry4:
   - 4
-  - 2
   - 3
+  - 2
   entry5:
   - 5
-  - 2
-  - 4
+  - 3
+  - 3
   entry6:
   - 6
-  - 2
-  - 5
+  - 3
+  - 4
   entry7:
   - 7
-  - 2
-  - 6
-  nodeID: 1
+  - 3
+  - 5
+  nodeID: 2
 aquasent:
   baudrate: 115200
   port: /dev/ttyUSB1
 clientsocket:
-  address: 192.168.2.101
+  address: 192.168.2.102
   correlatethreadshort: 0.1
   cycleprefixms: 20
   gain: 0.01
@@ -43,7 +43,7 @@ drt:
 drtPlus:
   nodeID: 1
 fskclient:
-  address: 192.168.2.106
+  address: 192.168.2.102
   correlatethreadshort: 0.1
   cycleprefixms: 20
   gain: 0.2
@@ -52,7 +52,7 @@ fskclient:
   samplerate: 80000
   transmitAmp: 0.005
 fsknewclient:
-  address: 192.168.2.101
+  address: 192.168.2.102
   correlatethreadshort: 0.1
   cycleprefixms: 20
   datasize: 84
@@ -63,11 +63,11 @@ fsknewclient:
   transmitAmp: 0.005
   upError: 0
 newAloha:
-  MacId: 1
+  MacId: 2
   MinReSendTime: 8
   ReSendTimeRange: 12
 qpskclient:
-  address: 192.168.2.101
+  address: 192.168.2.104
   datasize: 239
   port: 80
   qpsknumchannel: 4
@@ -77,29 +77,31 @@ qpskclient:
   threshold: 0.1
   txgain: 0.005
 server:
-  port: 9080
+  port: 9081
 simulatechannel:
   address: 127.0.0.1
   port: 30001
 test:
   othernodeID:
-  - 7
-  packetnum: 63
-  seed: 8
-  testmode: 0
-  timeforhandshake: 10
-  timeinterval:
+  - 2
+  - 3
   - 4
-  - 5
+  packetnum: 100
+  seed: 10
+  testmode: 0
+  timeforhandshake: 20
+  timeinterval:
+  - 3
+  - 8
 trace:
-  tracefile: A.log
+  tracefile: B.log
   tracemode: 1
   tracepath: ./tracefile/
-  tracetime: Wed_Nov__4_11_45_42_2020
+  tracetime: Mon_Oct_26_14_23_21_2020
 udp:
-  pos_x: 0
-  pos_y: 0
-  pos_z: 0
+  pos_x: 500
+  pos_y: 500
+  pos_z: 500
 vbf:
   position:
   - 1

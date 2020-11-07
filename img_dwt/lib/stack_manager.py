@@ -90,7 +90,7 @@ class Stack_Sender(EW_Sender):
         self.stack_port = stack_port    
         Sender.__init__(self, img_path, fountain_chunk_size=chunk_size, fountain_type='ew', seed=seed)
         # 继承Sender后重新初始化块大小、喷泉类型、种子数
-        self.drop_interval = 10
+        self.drop_interval = 7 
         ACK_app = False # 是否收到ACK_app
         
 
@@ -220,7 +220,9 @@ class Stack_Receiver(EW_Receiver):
             data_offset = 6 # fountain_lib.py:238
             if not a_drop == None:
                 self.drop_id += 1
+		print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
                 print("drops id : ", self.drop_id)
+		print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
                 self.drop_byte_size = len(a_drop)
                 if len(a_drop) >= self.chunk_size + data_offset:
                     a_drop = a_drop[:self.chunk_size+data_offset]
