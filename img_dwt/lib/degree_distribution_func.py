@@ -37,7 +37,7 @@ def first_degree_distribution_func():
 def second_degree_distribution_func():
 #'''Shokrollahi, 5.78'''
     d = [1, 2, 3, 4, 5, 8, 9, 19, 65, 66]
-    d_f = [0.007969, 0.49357, 0.16622, 0.072646, 0.082558, 0.056058, 0.037299, 0.05559, 0.025023, 0.003135]
+    d_f = [0.007969, 0.49357, 0.16622, 0.072646, 0.082558, 0.056058, 0.037229, 0.05559, 0.025023, 0.003137]
     while True:
         i = np.random.choice(d, 1, False, d_f)[0]
         yield i
@@ -84,7 +84,7 @@ def open_distrubution_func(i, a, k):
         else:
             yield robust_soliton(k)
 
-def uniform_istribution_func(k):
+def uniform_distribution_func(k):
     d = [ii + 1 for ii in range(k)]  # 1 ~ k
     d_f = [1.0 / k for ii in d]
     while True:
