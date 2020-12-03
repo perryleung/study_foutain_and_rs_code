@@ -95,7 +95,7 @@ trace:
   tracefile: A.log
   tracemode: 1
   tracepath: ./tracefile/
-  tracetime: Wed_Nov__4_11_45_42_2020
+  tracetime: Sat_Oct_31_16_09_01_2020
 udp:
   pos_x: 0
   pos_y: 0

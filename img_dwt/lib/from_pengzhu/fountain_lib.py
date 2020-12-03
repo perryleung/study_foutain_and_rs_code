@@ -74,8 +74,7 @@ def randChunkNums(num_chunks):
 
 def robust_randChunkNums(num_chunks):
     size = robust_soliton(num_chunks).__next__()
-    # return random.sample(range(num_chunks), size)
-    return [ii for ii in random.sample(range(num_chunks), size)]
+    return random.sample(range(num_chunks), size)
 
 def all_at_once_randChunkNums(chunks):
     # return random.sample(chunks, 1)
@@ -121,16 +120,14 @@ def robust_soliton(K, c= 0.03, delta= 0.05):
 class Droplet:
     ''' 储存随机数种子，并有一个计算本水滴中包含的数据块编码的方法'''
     def __init__(self, data, seed, num_chunks):
-        m = ' ' * num_chunks * len(data)            # 修改
         self.data = data
         self.seed = seed
         self.num_chunks = num_chunks
-        self.owner = Fountain(m, len(self.data))    # 修改
 
     def chunkNums(self):
         random.seed(self.seed)
         np.random.seed(self.seed)
-        return self.owner.Normal_RandChunkNums(self.num_chunks)       # 修改
+        return randChunkNums(self.num_chunks)
 
     def toString(self):
         return json.dumps(
@@ -166,7 +163,6 @@ class Fountain(object):
         self.chunk_process = []
         random.seed(seed)
         np.random.seed(seed)
-        self.robust_random_chunk_gen = robust_soliton(self.num_chunks)
         # self.show_info()
 
     def show_info(self):
@@ -179,15 +175,13 @@ class Fountain(object):
         self.updateSeed()
         ### 修改
         if not self.all_at_once:
-            ### 修改
-            # self.chunk_selected = self.Normal_RandChunkNums(self.num_chunks)
             self.chunk_selected = robust_randChunkNums(self.num_chunks)
         else:
             self.chunk_selected = all_at_once_randChunkNums(self.chunk_process)
 
         # chunk_selected = randChunkNums(self.num_chunks)
         # logging.info("seed: {}".format(self.seed))
-        # logging.info("send chunk list: {}".format(self.chunk_selected)) this shows the chunks which are selected everytime!
+        logging.info("send chunk list: {}".format(self.chunk_selected))
         data = None
         for num in self.chunk_selected:
             if data is None:
@@ -197,11 +191,6 @@ class Fountain(object):
                 # data = x_o_r(data, self.chunk(num))               # 被选到的数据块异或   异或时存在两字符串长度不一样
 
         return Droplet(data, self.seed, self.num_chunks)
-    
-    def Normal_RandChunkNums(self, num_chunks):
-        size = self.robust_random_chunk_gen.__next__()
-        # return random.sample(range(num_chunks), size)
-        return [ii for ii in random.sample(range(self.num_chunks), size)]
 
     def chunk(self, num):
         start = self.chunk_size * num
@@ -218,7 +207,7 @@ class EW_Fountain(Fountain):
     ''' 扩展窗喷泉码 '''
     def __init__(self, data, chunk_size, seed=None, w1_size=0.1, w1_pro=0.084):
         Fountain.__init__(self, data, chunk_size=chunk_size, seed=None)
-        # logging.info("-----------------EW_Fountain------------")
+        logging.info("-----------------EW_Fountain------------")
         self.w1_p = w1_size
         self.w1_pro = w1_pro
         self.windows_id_gen = self.windows_selection()
@@ -235,15 +224,15 @@ class EW_Fountain(Fountain):
     def droplet(self):
         self.updateSeed()
         chunk_selected = self.EW_RandChunkNums(self.num_chunks)
-        # logging.info("send seed: {}\tnum_chunks: {}".format(self.seed, self.num_chunks))
+        logging.info("send seed: {}\tnum_chunks: {}".format(self.seed, self.num_chunks))
         data = None
         for num in chunk_selected:
             if data is None:
                 data = self.chunk(num)
             else:
-                data = xor(data, self.chunk(num))
+                data = x_o_r(data, self.chunk(num))
 
-        # logging.info('send chunk_list : {}'.format(chunk_selected))
+        logging.info('send chunk_list : {}'.format(chunk_selected))
         return EW_Droplet(data, self.seed, self.num_chunks)
 
     def EW_RandChunkNums(self, num_chunks):
@@ -380,6 +369,7 @@ class Glass:
                     # a = str(ii)
                 tmp = bitarray_factory.frombytes(chunk)
         return bitarray_factory
+
 
     def get_w1_bits(self, w1_size):
         current_bits = ''
@@ -529,88 +519,30 @@ def test_normal_fountain():
 
 def main_test_ew_fountain():
     m = open(os.path.join(DOC_PATH, 'fountain.txt'), 'r').read()
-    run_times = 10
-    scale_list = [0.0] * run_times
-    j = 0
-    while j < run_times:
-        fountain = EW_Fountain(m, chunk_size=10)
-        glass = Glass(fountain.num_chunks)
-        ew_drop = None
-        i = 0
-        drop_size = 0
-        while not glass.isDone():
-            i += 1
-            a_drop = fountain.droplet()
-            ew_drop = EW_Droplet(a_drop.data, a_drop.seed, a_drop.num_chunks)
-            drop_size = len(ew_drop.data)
-            glass.addDroplet(ew_drop)
-            #  sleep(1)
-            # logging.info('+++++++++++++++++++++++++++++')
-            # logging.info(glass.getString())
-        logging.info("data size : {}".format(len(m)))
-        logging.info("send drop num : {} drop size : {}".format(i, drop_size))        
-        logging.info("send data size : {}".format(i * drop_size))
-        logging.info("scale : {}".format((i * drop_size) / float(len(m))))
-        logging.info("self.dropid of glass : {}".format(glass.dropid))
-        logging.info('done')
-        scale_list[j] = (i * drop_size) / float(len(m))
-        j += 1
-    logging.info("average scale : {}".format(sum(scale_list) / (run_times*1.0)))
-    logging.info("")
-    logging.info("sum of scale_list : {}".format(sum(scale_list)))
-    logging.info("scale_list : {}".format(scale_list))
-
-def main_test_normal_fountain():
-    m = open(os.path.join(DOC_PATH, 'fountain.txt'), 'r').read()
-    run_times = 100
-    scale_list = [0.0]*run_times
-    #fountain = Fountain(m, chunk_size=10)
-    #glass = Glass(fountain.num_chunks)
+    fountain = EW_Fountain(m, chunk_size=10)
+    glass = Glass(fountain.num_chunks)
+    ew_drop = None
+    i = 0
     drop_size = 0
-    j = 0
-    while j < run_times:
-        i = 0
-        logging.info("***** running the {} time now!".format(j+1))
-        fountain = Fountain(m, chunk_size=10)
-        glass = Glass(fountain.num_chunks)
-        K = fountain.num_chunks
-        while not glass.isDone():
-            i += 1
-            a_drop = fountain.droplet()
-            drop_size = len(a_drop.data)
-            glass.addDroplet(a_drop)
-            '''
-            # with or without feedback
-            if(glass.dropid >= K):
-                fountain.all_at_once = True
-                if((glass.dropid-K)%10 == 0):
-                    print(glass.getProcess())
-                    fountain.chunk_process = glass.getProcess()
-            else:
-                fountain.all_at_once = False
+    while not glass.isDone():
+        i += 1
+        a_drop = fountain.droplet()
+        ew_drop = EW_Droplet(a_drop.data, a_drop.seed, a_drop.num_chunks)
+        drop_size = len(ew_drop.data)
+        glass.addDroplet(ew_drop)
+        #  sleep(1)
+        logging.info('+++++++++++++++++++++++++++++')
+        logging.info(glass.getString())
+    logging.info("data size : {}".format(len(m)))
+    logging.info("send drop num : {} drop size : {}".format(i, drop_size))        
+    logging.info("send data size : {}".format(i * drop_size))
+    logging.info("scale : {}".format((i* drop_size) / float(len(m))))
+    logging.info('done')
 
-            sleep(0.5)
-            '''
-            #logging.info('+++++++++++++++++++++++++++++')
-            #logging.info(glass.getString())
-        logging.info("data size : {} num of chunk : {}".format(len(m), a_drop.num_chunks))
-        logging.info("send drop num : {} drop size : {}".format(i, drop_size))        
-        logging.info("send data size : {}".format(i * drop_size))
-        logging.info("scale : {}".format((i * drop_size) / float(len(m))))
-        logging.info("self.dropid of glass : {}".format(glass.dropid))
-        logging.info('done')
-        scale_list[j] = (i * drop_size) / float(len(m))
-        j += 1
-    logging.info("average scale : {}".format(sum(scale_list) / (run_times*1.0)))
-    logging.info("")
-    logging.info("sum of scale_list : {}".format(sum(scale_list)))
-    logging.info("scale_list : {}".format(scale_list))
 
 if __name__ == "__main__":
     # test_normal_fountain()
-    # test_feedback_fountain()
-    # main_test_ew_fountain()
-    main_test_normal_fountain()
+    test_feedback_fountain()
     pass
 
 

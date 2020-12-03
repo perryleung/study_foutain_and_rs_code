@@ -166,7 +166,7 @@ class Fountain(object):
         self.chunk_process = []
         random.seed(seed)
         np.random.seed(seed)
-        self.robust_random_chunk_gen = robust_soliton(self.num_chunks)
+        self.robust_random_chunk_gen = robust_soliton(self.num_chunks)  #修改
         # self.show_info()
 
     def show_info(self):
@@ -198,6 +198,7 @@ class Fountain(object):
 
         return Droplet(data, self.seed, self.num_chunks)
     
+    # 修改
     def Normal_RandChunkNums(self, num_chunks):
         size = self.robust_random_chunk_gen.__next__()
         # return random.sample(range(num_chunks), size)
@@ -380,6 +381,7 @@ class Glass:
                     # a = str(ii)
                 tmp = bitarray_factory.frombytes(chunk)
         return bitarray_factory
+
 
     def get_w1_bits(self, w1_size):
         current_bits = ''

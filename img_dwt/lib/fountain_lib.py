@@ -1,7 +1,7 @@
 # _*_ coding=utf-8 _*_
 from __future__ import print_function
 from math import ceil, log
-from additional_func import *
+from degree_distribution_func import *
 import sys, os
 import random
 import json
@@ -42,30 +42,7 @@ def randChunkNums(num_chunks):
     # random.sample 是一个均匀分布的采样
     return random.sample(xrange(num_chunks), size)
 
-def soliton(K):
-    ''' 理想弧波函数 '''
-    d = [ii + 1 for ii in range(K)] # a list with 1 ~ K 
-    d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
-    while 1:
-        # i = np.random.choice(d, 1, False, d_f)[0]
-        yield np.random.choice(d, 1, False, d_f)[0]
 
-def robust_soliton(K, c = 0.03, delta = 0.05):
-    ''' 鲁棒理想弧波函数 '''
-    d = [ii + 1 for ii in range(K)]
-    soliton_d_f = [1.0 / K if ii == 1 else 1.0 / (ii * (ii - 1)) for ii in d]
-    S = c * log(K / delta) * (K ** 0.5)
-    interval_0 = [ii + 1 for ii in list(range(int(round(K / S)) - 1))]
-    interval_1 = [int(round(K / S))]
-    tau = [S / (K * dd) if dd in interval_0 
-            else S / float(K) * log(S / delta) if dd in interval_1
-            else 0 for dd in d]
-    Z = sum([soliton_d_f[ii] + tau[ii] for ii in range(K)])
-    u_d_f = [(soliton_d_f[ii] + tau[ii]) / Z for ii in range(K)]
-
-    while True :
-        # i = np.random.choice(d, 1, False, u_d_f)[0]
-        yield np.random.choice(d, 1, False, u_d_f)[0]
 
 class Droplet:
     ''' 储存随机数种子，并有一个计算本水滴中包含的数据块编码的方法'''
@@ -147,7 +124,7 @@ class Fountain(object):
 
 class EW_Fountain(Fountain):
     ''' 扩展窗喷泉码 '''
-    def __init__(self, data, chunk_size=50, seed=None, w1_size=0.1, w1_pro=0.084):
+    def __init__(self, data,  chunk_size=50, seed=None, w1_size=0.1, w1_pro=0.084):
         Fountain.__init__(self, data, chunk_size=chunk_size, seed=None)
         logging.info("-----------------init EW_Fountain------------")
         self.w1_p=w1_size
@@ -156,13 +133,24 @@ class EW_Fountain(Fountain):
         self.w1_size = int(round(self.num_chunks * self.w1_p))  # 重要窗的规模大小，既可以容下多少个编码块
         #  self.w2_size = int(self.num_chunks - self.w1_size)   
         self.w2_size = self.num_chunks                          # 次要窗的规模大小
-        self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
-        self.w2_random_chunk_gen = robust_soliton(self.w2_size) # 返回的是度数，代表编码块个数
-
+	#self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
+        #self.w2_random_chunk_gen = robust_soliton(self.w2_size) # 返回的是度数，代表编码块个数
         #  logging.info('w1_size : ', self.w1_size)
+        #self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
+        #self.w2_random_chunk_gen = first_degree_distribution_func() # 返回的是度数，代表编码块个数
+        #  logging.info('w1_size : ', self.w1_size)
+        #self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
+        #self.w2_random_chunk_gen = second_degree_distribution_func() # 返回的是度数，代表编码块个数
+	#  logging.info('w1_size : ', self.w1_size)
+        self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
+        self.w2_random_chunk_gen = mrds_func(self.w2_size) # 返回的是度数，代表编码块个数
         #  logging.info('w2_size : ', self.w2_size)
-        #  logging.info('w size ; ', self.num_chunks)
-
+        #self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
+        #self.w2_random_chunk_gen = binary_exp_func(self.w2_size) # 返回的是度数，代表编码块个数
+        #  logging.info('w1_size : ', self.w1_size)
+        #self.w1_random_chunk_gen = robust_soliton(self.w1_size),# 这个逗号是认真的 
+        #self.w2_random_chunk_gen = poisson_func(self.w2_size) # 返回的是度数，代表编码块个数
+        #  logging.info('w1_size : ', self.w1_size)
     def droplet(self):
         self.updateSeed()
         chunk_list = self.EW_RandChunkNums(self.num_chunks)
@@ -180,13 +168,12 @@ class EW_Fountain(Fountain):
     def EW_RandChunkNums(self, num_chunks):
         '''扩展窗的不同在这里'''
         window_id = self.windows_id_gen.next()
-        #  logging.info('window_id: ', window_id)
         if window_id == 1:
             size = self.w1_random_chunk_gen[0].next()
             return random.sample(xrange(self.w1_size), size)
         else:
             size = self.w2_random_chunk_gen.next()
-            return [ii for ii in random.sample(xrange(self.w2_size), size)]
+            return [ii for ii in random.sample(xrange(self.w2_size), size)] 
 
     def windows_selection(self):
         '''以概率[{p:1, 1-p:2}返回选择的窗口'''
@@ -228,7 +215,7 @@ class Glass:
     def __init__(self, num_chunks):
         self.entries = []
         self.droplets = []      # 水滴数据列表
-        self.num_chunks = num_chunks
+        self.num_chunks = num_chunks    # 总个数
         self.chunks = [None] * num_chunks
         self.chunk_bit_size = 0
         
@@ -290,9 +277,18 @@ class Glass:
     def get_bits(self):
         current_bits = ''
         bitarray_factory = bitarray.bitarray(endian='big')
+	logging.info('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
         logging.info('current chunks')
-        logging.info([ii if ii == None else '++++' for ii in self.chunks])
-        for chunk in self.chunks:
+	logging.info('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+        #logging.info([ii if ii == None else '++++' for ii in self.chunks])
+        count = 0
+	for c in self.chunks:
+	    if c is not None:
+		count = count + 1
+	logging.info('&&&&&&&&&&&&&&&&&&&&&&')
+	logging.info('count = {}'.format(count))
+	logging.info('&&&&&&&&&&&&&&&&&&&&&&')
+	for chunk in self.chunks:
             if chunk == None:
                 break
             else :
