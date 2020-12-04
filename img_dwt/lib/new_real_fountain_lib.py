@@ -466,8 +466,16 @@ class Glass:
     
 
 def test_LT_feedback_fountain():
+    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    test_dir = os.path.join(
+                NEW_SIM_PATH,
+                "LT_feedback",
+                testFile
+                )
+    if not os.path.exists(test_dir):
+            os.mkdir(test_dir)
     suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
-    file_list = [DOC_PATH + '/test_data' + ii for ii in suffix_list]
+    file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
     avg_idx = 0
 
@@ -509,16 +517,24 @@ def test_LT_feedback_fountain():
         res = pd.DataFrame({'num_chunks':num_chunks_list, 
             'times':times_list, 
             'drop_num_used':drop_num_used_list})
-        res.to_csv(os.path.join(NEW_SIM_PATH, 'feedback_K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+        res.to_csv(os.path.join(test_dir, 'feedback_K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
         avg_drops_list[avg_idx] = float(sum(drop_num_used_list) / len(drop_num_used_list))
         avg_idx += 1
     
     avg_res = pd.DataFrame({'K': [ii.split('.')[0] for ii in suffix_list], 
             'avgs':avg_drops_list})
-    avg_res.to_csv(os.path.join(NEW_SIM_PATH, 'feedback_avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+    avg_res.to_csv(os.path.join(test_dir, 'feedback_avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
 def test_LT_fountain():
+    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    test_dir = os.path.join(
+                NEW_SIM_PATH,
+                "LT",
+                testFile
+                )
+    if not os.path.exists(test_dir):
+            os.mkdir(test_dir)
     suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
     file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
@@ -554,15 +570,129 @@ def test_LT_fountain():
         res = pd.DataFrame({'num_chunks':num_chunks_list, 
             'times':times_list, 
             'drop_num_used':drop_num_used_list})
-        res.to_csv(os.path.join(NEW_SIM_PATH, 'K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+        res.to_csv(os.path.join(test_dir, 'K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
         avg_drops_list[avg_idx] = float(sum(drop_num_used_list) / len(drop_num_used_list))
         avg_idx += 1
     
     avg_res = pd.DataFrame({'K': [ii.split('.')[0] for ii in suffix_list], 
             'avgs':avg_drops_list})
-    avg_res.to_csv(os.path.join(NEW_SIM_PATH, 'avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+    avg_res.to_csv(os.path.join(test_dir, 'avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
+def test_EW_fountain():
+    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    test_dir = os.path.join(
+                NEW_SIM_PATH,
+                "EW",
+                testFile
+                )
+    if not os.path.exists(test_dir):
+            os.mkdir(test_dir)
+    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
+    file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
+    avg_drops_list = [0]*len(suffix_list)
+    avg_idx = 0
+
+    for f in file_list:
+        m = open(f, 'r').read()
+        # 测试1000次
+        num_chunks_list = [0]*100
+        times_list = [0]*100
+        drop_num_used_list = [0]*100
+
+        times = 0
+        K = 0
+        while times < 100:
+            fountain = Fountain(m, 1)
+            K = fountain.num_chunks
+            glass = Glass(fountain.num_chunks)
+            ew_drop = None
+            while not glass.isDone():
+                a_drop = fountain.droplet()       # send
+                ew_drop = EW_Droplet(a_drop.data, a_drop.seed, a_drop.num_chunks, a_drop.process)
+                glass.addDroplet(ew_drop)          # recv
+
+            num_chunks_list[times] = fountain.num_chunks
+            times_list[times] = times
+            drop_num_used_list[times] = glass.dropid
+
+            logging.info("EW K=" + str(fountain.num_chunks) +" times: " + str(times) + 'done, receive_drop_used: ' + str(glass.dropid))
+            times += 1
+
+        res = pd.DataFrame({'num_chunks':num_chunks_list, 
+            'times':times_list, 
+            'drop_num_used':drop_num_used_list})
+        res.to_csv(os.path.join(test_dir, 'EW_K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+
+        avg_drops_list[avg_idx] = float(sum(drop_num_used_list) / len(drop_num_used_list))
+        avg_idx += 1
+    
+    avg_res = pd.DataFrame({'K': [ii.split('.')[0] for ii in suffix_list], 
+            'avgs':avg_drops_list})
+    avg_res.to_csv(os.path.join(test_dir, 'avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+
+def test_EW_feedback_fountain():
+    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    test_dir = os.path.join(
+                NEW_SIM_PATH,
+                "EW_feedback",
+                testFile
+                )
+    if not os.path.exists(test_dir):
+            os.mkdir(test_dir)
+    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
+    file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
+    avg_drops_list = [0]*len(suffix_list)
+    avg_idx = 0
+
+    for f in file_list:
+        m = open(f, 'r').read()
+        # 测试1000次
+        num_chunks_list = [0]*100
+        times_list = [0]*100
+        drop_num_used_list = [0]*100
+
+        times = 0
+        K = 0
+        while times < 100:
+            fountain = EW_Fountain(m, 1)
+            K = fountain.num_chunks
+            glass = Glass(fountain.num_chunks)
+            ew_drop = None
+            while not glass.isDone():
+                a_drop = fountain.droplet()       # send
+                ew_drop = EW_Droplet(a_drop.data, a_drop.seed, a_drop.num_chunks, a_drop.process)
+
+                glass.addDroplet(ew_drop)          # recv
+                if(glass.dropid >= K):
+                    glass.all_at_once = True
+                    fountain.all_at_once = True
+                    # 之后每10个包反馈进度
+                    if((glass.dropid-K)%10 == 0):
+                        fountain.chunk_process = glass.getProcess()
+                
+
+                # logging.info('+++++++++++++++++++++++++++++')
+                # logging.info(glass.getString())
+
+            num_chunks_list[times] = fountain.num_chunks
+            times_list[times] = times
+            drop_num_used_list[times] = glass.dropid
+
+            logging.info("feedback_EW_K=" + str(fountain.num_chunks) +" times: " + str(times) + 'done, receive_drop_used: ' + str(glass.dropid))
+            times += 1
+
+        res = pd.DataFrame({'num_chunks':num_chunks_list, 
+            'times':times_list, 
+            'drop_num_used':drop_num_used_list})
+        res.to_csv(os.path.join(test_dir, 'feedback_EW_K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+
+        avg_drops_list[avg_idx] = float(sum(drop_num_used_list) / len(drop_num_used_list))
+        avg_idx += 1
+    
+    avg_res = pd.DataFrame({'K': [ii.split('.')[0] for ii in suffix_list], 
+            'avgs':avg_drops_list})
+    avg_res.to_csv(os.path.join(test_dir, 'feedback_EW_avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
 def main_test_ew_fountain():
     m = open(os.path.join(DOC_PATH, 'fountain.txt'), 'r').read()
