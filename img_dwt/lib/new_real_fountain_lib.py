@@ -10,7 +10,7 @@ from time import sleep
 import time
 import logging
 import pandas as pd
-
+sys.setrecursionlimit(1000000)
 LIB_PATH = os.path.dirname(__file__)
 DOC_PATH = os.path.join(LIB_PATH, '../doc')
 SIM_PATH = os.path.join(LIB_PATH, '../simulation')
@@ -161,17 +161,16 @@ class Droplet:
         random.seed(self.seed)
         np.random.seed(self.seed)
 
-
 class Fountain(object):
     # 继承了object对象，拥有了好多可操作对象，这些都是类中的高级特性。python 3 中已经默认加载了object
-    def __init__(self, data, chunk_size, seed=None):
+    def __init__(self, data, chunk_size, seed=None, process=[]):
         self.data = data
         self.chunk_size = chunk_size
         self.num_chunks = int(ceil(len(data) / float(chunk_size)))
         self.seed = seed
         self.all_at_once = False
         self.chunk_selected = []
-        self.chunk_process = []
+        self.chunk_process = process
         random.seed(seed)
         np.random.seed(seed)
         # self.show_info()
@@ -213,11 +212,10 @@ class Fountain(object):
         random.seed(self.seed)
         np.random.seed(self.seed)
 
-
 class EW_Fountain(Fountain):
     ''' 扩展窗喷泉码 '''
-    def __init__(self, data, chunk_size, seed=None, w1_size=0.1, w1_pro=0.084):
-        Fountain.__init__(self, data, chunk_size=chunk_size, seed=None)
+    def __init__(self, data, chunk_size, seed=None, process=[], w1_size=0.1, w1_pro=0.084):
+        Fountain.__init__(self, data, chunk_size=chunk_size, seed=None, process=process)
         # logging.info("-----------------EW_Fountain------------")
         self.w1_p = w1_size
         self.w1_pro = w1_pro
@@ -227,7 +225,7 @@ class EW_Fountain(Fountain):
         self.w1_random_chunk_gen = robust_soliton(self.w1_size),
         self.w2_random_chunk_gen = robust_soliton(self.w2_size)
         self.all_at_once = False
-        self.chunk_process = []
+        self.chunk_process = process
         self.chunk_selected = []
         # logging.info('w1_size : ', self.w1_size)
         # logging.info('w2_size : ', self.w2_size)
@@ -284,7 +282,7 @@ class EW_Fountain(Fountain):
                 w1_chunk_process.append(i)
 
         window_id = self.windows_id_gen.__next__()
-        if window_id == 1:
+        if (window_id == 1 and not len(w1_chunk_process) == 0):
             return [ii for ii in np.random.choice(w1_chunk_process, 1, False)]          
         else:
             return [ii for ii in np.random.choice(self.chunk_process, 1, False)]
@@ -310,7 +308,7 @@ class EW_Droplet(Droplet):
     def __init__(self, data, seed, num_chunks, process, w1_size=0.1, w1_pro=0.084):
         Droplet.__init__(self, data, seed, num_chunks, process)
         m = ' ' * num_chunks * len(data)
-        self.ower = EW_Fountain(m, len(self.data), w1_size=w1_size, w1_pro=w1_pro)
+        self.ower = EW_Fountain(m, len(self.data), process=process, w1_size=w1_size, w1_pro=w1_pro)
 
     def robust_chunkNums(self):
         random.seed(self.seed)
@@ -327,7 +325,6 @@ class EW_Droplet(Droplet):
         random.seed(self.seed)
         np.random.seed(self.seed)
         return self.ower.EW_RandChunkNums(self.num_chunks)
-
 
 class Glass:
     '''接收水滴：与或计算后的数据，'''
@@ -462,19 +459,66 @@ class Glass:
         return count
 
 
+def test_LT_fountain():
+    testFile = 'RSD_' + time.asctime().replace(' ', '_').replace(':', '_')
+    test_dir = os.path.join(
+                NEW_SIM_PATH,
+                "LT",
+                testFile
+                )
+    if not os.path.exists(test_dir):
+            os.mkdir(test_dir)
+    suffix_list = ['2000.txt', '50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
+    file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
+    avg_drops_list = [0]*len(suffix_list)
+    avg_idx = 0
 
+    for f in file_list:
+        m = open(f, 'r').read()
+        # 测试1000次
+        num_chunks_list = [0]*100
+        times_list = [0]*100
+        drop_num_used_list = [0]*100
+        times = 0
+        K = 0
+        while times < 100:
+            fountain = Fountain(m, 1)
+            K = fountain.num_chunks
+            glass = Glass(fountain.num_chunks)
+            while not glass.isDone():
+                a_drop = fountain.droplet()       # send
+                glass.addDroplet(a_drop)          # recv
+
+            num_chunks_list[times] = fountain.num_chunks
+            times_list[times] = times
+            drop_num_used_list[times] = glass.dropid
+
+            logging.info("K = " + str(fountain.num_chunks) +" times: " + str(times+1) + ' done, receive_drop_used: ' + str(glass.dropid))
+            times += 1
+
+        res = pd.DataFrame({'num_chunks':num_chunks_list, 
+            'times':times_list, 
+            'drop_num_used':drop_num_used_list})
+        res.to_csv(os.path.join(test_dir, 'K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
+
+        avg_drops_list[avg_idx] = float(sum(drop_num_used_list) / len(drop_num_used_list))
+        avg_idx += 1
     
+    avg_res = pd.DataFrame({'K': [ii.split('.')[0] for ii in suffix_list], 
+            'avgs':avg_drops_list})
+    avg_res.to_csv(os.path.join(test_dir, 'avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
 def test_LT_feedback_fountain():
-    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    testFile = 'RSD_' + time.asctime().replace(' ', '_').replace(':', '_')
     test_dir = os.path.join(
                 NEW_SIM_PATH,
                 "LT_feedback",
                 testFile
                 )
     if not os.path.exists(test_dir):
-            os.mkdir(test_dir)
-    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
+        os.mkdir(test_dir)
+    #suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
+    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
     file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
     avg_idx = 0
@@ -501,7 +545,7 @@ def test_LT_feedback_fountain():
                     fountain.all_at_once = True
                     if ((glass.dropid - K) % 10 == 0):
                     # 每10倍数未发则监测重传一次
-                        print(glass.getProcess())
+                        #print(glass.getProcess())
                         fountain.chunk_process = glass.getProcess()
 
                 # logging.info('+++++++++++++++++++++++++++++')
@@ -511,7 +555,7 @@ def test_LT_feedback_fountain():
             times_list[times] = times
             drop_num_used_list[times] = glass.dropid
 
-            logging.info("K=" + str(fountain.num_chunks) +" times: " + str(times) + 'done, receive_drop_used: ' + str(glass.dropid))
+            logging.info("K = " + str(fountain.num_chunks) +" times: " + str(times+1) + ' done, receive_drop_used: ' + str(glass.dropid))
             times += 1
 
         res = pd.DataFrame({'num_chunks':num_chunks_list, 
@@ -526,61 +570,8 @@ def test_LT_feedback_fountain():
             'avgs':avg_drops_list})
     avg_res.to_csv(os.path.join(test_dir, 'feedback_avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
-def test_LT_fountain():
-    testFile = time.asctime().replace(' ', '_').replace(':', '_')
-    test_dir = os.path.join(
-                NEW_SIM_PATH,
-                "LT",
-                testFile
-                )
-    if not os.path.exists(test_dir):
-            os.mkdir(test_dir)
-    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
-    file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
-    avg_drops_list = [0]*len(suffix_list)
-    avg_idx = 0
-
-    for f in file_list:
-        m = open(f, 'r').read()
-        # 测试1000次
-        num_chunks_list = [0]*100
-        times_list = [0]*100
-        drop_num_used_list = [0]*100
-
-        times = 0
-        K = 0
-        while times < 100:
-            fountain = Fountain(m, 1)
-            K = fountain.num_chunks
-            glass = Glass(fountain.num_chunks)
-            while not glass.isDone():
-                a_drop = fountain.droplet()       # send
-
-                glass.addDroplet(a_drop)          # recv
-                # logging.info('+++++++++++++++++++++++++++++')
-                # logging.info(glass.getString())
-
-            num_chunks_list[times] = fountain.num_chunks
-            times_list[times] = times
-            drop_num_used_list[times] = glass.dropid
-
-            logging.info("K=" + str(fountain.num_chunks) +" times: " + str(times) + 'done, receive_drop_used: ' + str(glass.dropid))
-            times += 1
-
-        res = pd.DataFrame({'num_chunks':num_chunks_list, 
-            'times':times_list, 
-            'drop_num_used':drop_num_used_list})
-        res.to_csv(os.path.join(test_dir, 'K' + '_'+ str(K) + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
-
-        avg_drops_list[avg_idx] = float(sum(drop_num_used_list) / len(drop_num_used_list))
-        avg_idx += 1
-    
-    avg_res = pd.DataFrame({'K': [ii.split('.')[0] for ii in suffix_list], 
-            'avgs':avg_drops_list})
-    avg_res.to_csv(os.path.join(test_dir, 'avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
-
 def test_EW_fountain():
-    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    testFile = 'RSD_' + time.asctime().replace(' ', '_').replace(':', '_')
     test_dir = os.path.join(
                 NEW_SIM_PATH,
                 "EW",
@@ -588,7 +579,7 @@ def test_EW_fountain():
                 )
     if not os.path.exists(test_dir):
             os.mkdir(test_dir)
-    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
+    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
     file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
     avg_idx = 0
@@ -603,7 +594,7 @@ def test_EW_fountain():
         times = 0
         K = 0
         while times < 100:
-            fountain = Fountain(m, 1)
+            fountain = EW_Fountain(m, 1)
             K = fountain.num_chunks
             glass = Glass(fountain.num_chunks)
             ew_drop = None
@@ -632,7 +623,7 @@ def test_EW_fountain():
     avg_res.to_csv(os.path.join(test_dir, 'avgs' + '_' + time.asctime().replace(' ', '_').replace(':', '_') + '.csv'),  mode='a')
 
 def test_EW_feedback_fountain():
-    testFile = time.asctime().replace(' ', '_').replace(':', '_')
+    testFile = 'RSD_' + time.asctime().replace(' ', '_').replace(':', '_')
     test_dir = os.path.join(
                 NEW_SIM_PATH,
                 "EW_feedback",
@@ -640,7 +631,7 @@ def test_EW_feedback_fountain():
                 )
     if not os.path.exists(test_dir):
             os.mkdir(test_dir)
-    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt']
+    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
     file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
     avg_idx = 0
@@ -668,12 +659,11 @@ def test_EW_feedback_fountain():
                     glass.all_at_once = True
                     fountain.all_at_once = True
                     # 之后每10个包反馈进度
-                    if((glass.dropid-K)%10 == 0):
+                    if ((glass.dropid - K) % 10 == 0):
+                        print(glass.getProcess())
                         fountain.chunk_process = glass.getProcess()
-                
+                        ew_drop.process = glass.getProcess()
 
-                # logging.info('+++++++++++++++++++++++++++++')
-                # logging.info(glass.getString())
 
             num_chunks_list[times] = fountain.num_chunks
             times_list[times] = times
@@ -774,10 +764,10 @@ def main_test_normal_fountain():
     logging.info("scale_list : {}".format(scale_list))
 
 if __name__ == "__main__":
-    # test_normal_fountain()
-    # test_feedback_fountain()
-    # main_test_ew_fountain()
-    test_LT_fountain()
+    #test_LT_fountain()
+    test_LT_feedback_fountain()
+    #test_EW_fountain()
+    #test_EW_feedback_fountain()
     pass
 
 
