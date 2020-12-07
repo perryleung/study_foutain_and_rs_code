@@ -579,7 +579,8 @@ def test_EW_fountain():
                 )
     if not os.path.exists(test_dir):
             os.mkdir(test_dir)
-    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
+    #suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
+    suffix_list = ['5000.txt']
     file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
     avg_idx = 0
@@ -607,7 +608,7 @@ def test_EW_fountain():
             times_list[times] = times
             drop_num_used_list[times] = glass.dropid
 
-            logging.info("EW K=" + str(fountain.num_chunks) +" times: " + str(times) + 'done, receive_drop_used: ' + str(glass.dropid))
+            logging.info("EW K=" + str(fountain.num_chunks) +" times: " + str(times+1) + ' done, receive_drop_used: ' + str(glass.dropid))
             times += 1
 
         res = pd.DataFrame({'num_chunks':num_chunks_list, 
@@ -765,8 +766,8 @@ def main_test_normal_fountain():
 
 if __name__ == "__main__":
     #test_LT_fountain()
-    test_LT_feedback_fountain()
-    #test_EW_fountain()
+    #test_LT_feedback_fountain()
+    test_EW_fountain()
     #test_EW_feedback_fountain()
     pass
 
