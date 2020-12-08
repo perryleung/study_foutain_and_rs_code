@@ -18,7 +18,6 @@ def my_soliton(K, seed=random.randint(0, 2 ** 32 - 1)):
     # 理想弧波函数
     d = [ii + 1 for ii in range(K)]
     d_f = [1.0 / K if ii == 1 else 1 / (ii * (ii - 1)) for ii in d]
-    print(is_show)
     #  f = plt.figure()
     #  plt.bar(d, d_f)
     #  plt.show()
