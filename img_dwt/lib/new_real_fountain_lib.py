@@ -268,7 +268,7 @@ class EW_Fountain(Fountain):
         '''扩展窗的不同在这里'''
         window_id = self.windows_id_gen.__next__()
         if window_id == 1:
-            size = self.w1_random_chunk_gen[0].__next__()          # 鲁棒孤波返回的度值
+            size = self.w1_random_chunk_gen[0].__next__()          
             return random.sample(range(self.w1_size), size)
         else:
             size = self.w2_random_chunk_gen.__next__()
@@ -632,7 +632,8 @@ def test_EW_feedback_fountain():
                 )
     if not os.path.exists(test_dir):
             os.mkdir(test_dir)
-    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
+    #suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt', '2500.txt', '3000.txt', '3500.txt', '4000.txt', '4500.txt', '5000.txt']
+    suffix_list = ['50.txt', '100.txt', '150.txt', '200.txt', '250.txt', '300.txt', '350.txt', '400.txt', '450.txt', '500.txt', '1000.txt', '1500.txt', '2000.txt']
     file_list = [DOC_PATH + '/test_data/' + ii for ii in suffix_list]
     avg_drops_list = [0]*len(suffix_list)
     avg_idx = 0
@@ -767,8 +768,8 @@ def main_test_normal_fountain():
 if __name__ == "__main__":
     #test_LT_fountain()
     #test_LT_feedback_fountain()
-    test_EW_fountain()
-    #test_EW_feedback_fountain()
+    #test_EW_fountain()
+    test_EW_feedback_fountain()
     pass
 
 
